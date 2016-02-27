@@ -15,14 +15,10 @@ def to_ngrams(tokens, n=4):
 
 n  = 3
 kb = {}
-with open("corpus.txt", "r") as f:
-    print("Getting file...")
+with open("../corpus.txt", "r") as f:
     all_text = f.read()
-    print("Read in file!")
     tokens = nltk.word_tokenize(all_text)
-    print("Tokenized!")
     grams_for_line = to_ngrams(tokens, n)
-    print("Got NGrams")
     for gram in grams_for_line:
         prefix = " ".join(gram[0:n-1])
         nxt = gram[-1]
@@ -36,7 +32,6 @@ with open("corpus.txt", "r") as f:
             kb[prefix] = {}
             kb[prefix][nxt] = 1
 
-    print("Database created")
 
 
 
