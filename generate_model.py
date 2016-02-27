@@ -19,8 +19,7 @@ import sys
 import json
 import pickle
 
-path = get_file('corpus.txt')
-text = open(path).read().lower()
+text = open('corpus.txt').read().lower()
 print('corpus length:', len(text))
 
 chars = set(text)

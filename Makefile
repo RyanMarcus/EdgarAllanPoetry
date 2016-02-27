@@ -5,7 +5,7 @@ corpus.txt: $(TARGETS) corpus/*.txt
 	cat $(TARGETS) > corpus.txt
 
 
-%.txt: corpus/%.txt
+%.txt: corpus/%.txt cleanse.py
 	python3 cleanse.py $< > $@
 
 
