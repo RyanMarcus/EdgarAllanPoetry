@@ -8,6 +8,13 @@
 
 body {
   background-color: #F2F1EF;
+  background: repeating-linear-gradient(
+    45deg,
+    #EEEEEE,
+    #EEEEEE 5px,
+    #F2F1EF 5px,
+    #F2F1EF 10px
+  );
 }
 
 h1 {

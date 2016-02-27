@@ -31,19 +31,16 @@ function getPoem(type) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
-	return toR.promise;
-    } else if (type == "rnn") {
+    } else if (type =="rnn") {
     	pythonShell.run('pick_selection_rnn.py', options, function (err, poem) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
-	return toR.promise;
     } else if (type == "markov") {
     	pythonShell.run('pick_selection_markov.py', options, function (err, poem) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
-	return toR.promise;
     }
     return toR.promise;
 }
