@@ -65,17 +65,10 @@ function generateTrial() {
     ];
 
     return Q.all(poems).then(function (poems) {
-<<<<<<< HEAD
     	return Q.all([indico.sentiment(poems[0]),
     		            indico.sentiment(poems[1])])
     	.then(function (sent) {
     		return {
-=======
-	return Q.all([indico.sentimenthq(poems[0]),
-		      indico.sentimenthq(poems[1])])
-	    .then(function (sent) {
-		return {
->>>>>>> d0f0d6f599ed29a5610151c2acea3cc8819b8e93
       		    "poems": poems,
       		    "trial_id": trial_id,
 		          "poem1sentiment": sentToColor(sent[0]),
