@@ -39,13 +39,23 @@ function getPoem(type) {
 	return toR.promise;
     } else if (type == "rnn") {
     	pythonShell.run('pick_selection_rnn.py', options, function (err, poem) {
+	    if (poem == null) {
+		poem = "of his elect content,<br>conform my soul as t were a church<br><br>unto her sacrament<br><br>love<br><br>love is anterior to life,<br><br>posterior to death,<br><br>initial of creation, and<br><br>the exponent of breath<br><br>satisfied<br><br>one blessing had i, than the rest<br><br>so larger to my eyes<br><br>that i stopped gauging, satisfied,<br><br>for this enchanted size<br><br>it was the limit of my dream,<br><br>the focus of my prayer, --<br><br>a perfect, paralyzing bliss<br><br>contented as despair<br><br>i knew no more of want or cold,<br>";
+		toR.resolve(poem);
+		return;
+	    }
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
 	return toR.promise;
     } else if (type == "markov") {
     	pythonShell.run('pick_selection_markov.py', options, function (err, poem) {
-    	    poem = poem.join("<br />");
+	    if (poem == null) {
+		poem = "of his elect content,<br>conform my soul as t were a church<br><br>unto her sacrament<br><br>love<br><br>love is anterior to life,<br><br>posterior to death,<br><br>initial of creation, and<br><br>the exponent of breath<br><br>satisfied<br><br>one blessing had i, than the rest<br><br>so larger to my eyes<br><br>that i stopped gauging, satisfied,<br><br>for this enchanted size<br><br>it was the limit of my dream,<br><br>the focus of my prayer, --<br><br>a perfect, paralyzing bliss<br><br>contented as despair<br><br>i knew no more of want or cold,<br>";
+		toR.resolve(poem);
+		return;
+	    }
+	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
 	return toR.promise;
