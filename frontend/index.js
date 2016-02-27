@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
   var options = { pythonPath: 'python3'}
   pythonShell.run('generate_poem.py', options, function(err, fakePoem) {
     pythonShell.run('pick_selection.py', options, function(err, realPoem) {
-      res.render('turing', {fakePoem, realPoem});
+      res.render('turing', {"fakePoem": fakePoem, "realPoem": realPoem});
     })
   });
 });
