@@ -7,36 +7,36 @@
 }
 
 body {
-  background-color: #1BBC9B;
+  background-color: #F2F1EF;
 }
 
 h1 {
-  color: white;
+  color: #1BBC9B;
   font-family: 'Source Code Pro';
   font-size: 6em;
   margin-bottom: 15px;
 }
 
 h2 {
-  color: white;
+  color: #1BBC9B;
   font-size: 1.3em;
   margin-bottom: 6rem;
 }
 
-.choice1, .choice2 {
+#choice1, #choice2 {
   border: 1px solid white;
   border-radius: 4px;
   padding: 5px;
 }
 
-.button.button-primary, button.button-primary, input[type=button].button-primary, input[type=reset].button-primary, input[type=submit].button-primary {
-  color: #1BBC9B;
-  background-color: white;
-  border-color: white;
+.button, button, input[type=button], input[type=reset], input[type=submit] {
+  color: white;
+  background-color: #1BBC9B;
+  border-color: #1BBC9B;
 }
 
-.button.button-primary:focus, .button.button-primary:hover, button.button-primary:focus, button.button-primary:hover, input[type=button].button-primary:focus, input[type=button].button-primary:hover, input[type=reset].button-primary:focus, input[type=reset].button-primary:hover, input[type=submit].button-primary:focus, input[type=submit].button-primary:hover {
-  color: white;
-  background-color:#1BBC9B;
-  border-color: white;
+.button:focus, .button:hover, button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=submit]:focus, input[type=submit]:hover {
+  color: #1BBC9B;
+  background-color: #F2F1EF;
+  border-color: #1BBC9B;
 }

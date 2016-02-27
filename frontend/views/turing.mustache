@@ -1,6 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css" type="css">
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="ajaxCrap.js"></script>
@@ -13,28 +14,28 @@
     <div class="row">
       <div class="twelve columns">
         <center>
-          <span class="turingtest"><h1>TURING TEST </h1></span>
+          <h1>POETRY TURING TEST </h1>
+          <h2>Can you guess which code sample was written by a person?</h2>
         </center>
       </div>
     </div>
 
     <div class="row">
-      <div class="six columns choice1 wordwrap">
-        <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
-        <p id="poem1">
-        {{#poem1}}
-        {{.}}
-        {{/poem1}}
-      </p>
+      <div class="six columns">
+        <center>
+          <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
+        </center>
       </div>
-      <div class="six columns choice2 wordwrap">
-        <button id="poem2Button" poem_id="{{poem2_id}}" class="poemButton">This one?</button>
-        <p id="poem2">
-        {{#poem2}}
-        {{.}}
-        {{/poem2}}
-      </p>
+      <div class="six columns">
+        <center>
+          <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
+        </center>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="six columns wordwrap" id="choice1">{{{poem1}}}</div>
+      <div class="six columns wordwrap" id="choice2">{{{poem2}}}</div>
     </div>
   </div>
 
