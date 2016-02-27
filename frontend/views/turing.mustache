@@ -19,22 +19,21 @@
     </div>
 
     <div class="row">
-      <div class="six columns choice1 wordwrap">
-        <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
-        <p id="poem1">
-        {{#poem1}}
-        {{.}}
-        {{/poem1}}
-      </p>
+      <div class="six columns">
+        <center>
+          <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
+        </center>
       </div>
-      <div class="six columns choice2 wordwrap">
-        <button id="poem2Button" poem_id="{{poem2_id}}" class="poemButton">This one?</button>
-        <p id="poem2">
-        {{#poem2}}
-        {{.}}
-        {{/poem2}}
-      </p>
+      <div class="six columns">
+        <center>
+          <button id="poem1Button" poem_id="{{poem1_id}}" class="poemButton">This one?</button>
+        </center>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="six columns wordwrap" id="choice1">{{{poem1}}}</div>
+      <div class="six columns wordwrap" id="choice2">{{{poem2}}}</div>
     </div>
   </div>
 

@@ -35,7 +35,10 @@ app.get('/', function (req, res) {
         poem1 = realPoem;
         poem2 = fakePoem;
       }
-      res.render('turing', {"poem1": poem1, "poem2": poem2, "flip": flip, "poem1_id": poem1_id.toString(), "poem2_id": poem2_id.toString()});
+
+      poem1 = poem1.join("<br/>");
+      poem2 = poem2.join("<br/>");
+      res.render('turing', {"poem1": poem1, "poem2": poem2, "poem1_id": poem1_id.toString(), "poem2_id": poem2_id.toString()});
     })
   });
 });
@@ -56,6 +59,7 @@ app.get('/ajaxGetData', function(req, res){
       dict['current_id'] = current_id + 2
       poem1_id = current_id + 1;
       poem2_id = current_id + 2;
+      console.log(realPoem);
 
       if (flip==1) {
         dict['correct_ids'].add(poem2_id)
@@ -66,6 +70,8 @@ app.get('/ajaxGetData', function(req, res){
         poem1 = realPoem;
         poem2 = fakePoem;
       }
+      poem1 = poem1.join("<br/>");
+      poem2 = poem2.join("<br/>");
       console.log("poem ids:");
       console.log(dict['correct_ids'])
       var result = poem1+'#'+poem2+'#' + poem1_id + '#' + poem2_id;
