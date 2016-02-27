@@ -28,17 +28,32 @@ function getPoem(type) {
 
     if (type == "real") {
     	pythonShell.run('pick_selection.py', options, function (err, poem) {
+	    if (poem == null) {
+		poem = "of his elect content,<br>conform my soul as t were a church<br><br>unto her sacrament<br><br>love<br><br>love is anterior to life,<br><br>posterior to death,<br><br>initial of creation, and<br><br>the exponent of breath<br><br>satisfied<br><br>one blessing had i, than the rest<br><br>so larger to my eyes<br><br>that i stopped gauging, satisfied,<br><br>for this enchanted size<br><br>it was the limit of my dream,<br><br>the focus of my prayer, --<br><br>a perfect, paralyzing bliss<br><br>contented as despair<br><br>i knew no more of want or cold,<br>";
+		toR.resolve(poem);
+		return;
+	    }
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
     } else if (type =="rnn") {
     	pythonShell.run('pick_selection_rnn.py', options, function (err, poem) {
+	    if (poem == null) {
+		poem = "of his elect content,<br>conform my soul as t were a church<br><br>unto her sacrament<br><br>love<br><br>love is anterior to life,<br><br>posterior to death,<br><br>initial of creation, and<br><br>the exponent of breath<br><br>satisfied<br><br>one blessing had i, than the rest<br><br>so larger to my eyes<br><br>that i stopped gauging, satisfied,<br><br>for this enchanted size<br><br>it was the limit of my dream,<br><br>the focus of my prayer, --<br><br>a perfect, paralyzing bliss<br><br>contented as despair<br><br>i knew no more of want or cold,<br>";
+		toR.resolve(poem);
+		return;
+	    }
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
     } else if (type == "markov") {
     	pythonShell.run('pick_selection_markov.py', options, function (err, poem) {
-    	    poem = poem.join("<br />");
+	    if (poem == null) {
+		poem = "of his elect content,<br>conform my soul as t were a church<br><br>unto her sacrament<br><br>love<br><br>love is anterior to life,<br><br>posterior to death,<br><br>initial of creation, and<br><br>the exponent of breath<br><br>satisfied<br><br>one blessing had i, than the rest<br><br>so larger to my eyes<br><br>that i stopped gauging, satisfied,<br><br>for this enchanted size<br><br>it was the limit of my dream,<br><br>the focus of my prayer, --<br><br>a perfect, paralyzing bliss<br><br>contented as despair<br><br>i knew no more of want or cold,<br>";
+		toR.resolve(poem);
+		return;
+	    }
+	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
     }
@@ -146,6 +161,19 @@ function tallyResults() {
 	    "markovRight": markovRight};
 }
 
+app.get('/eap/charts', function(req, res) {
+    res.render('charts');
+});
+
+app.get('/eap/chartInfo', function(req, res){
+  var results = tallyResults();
+  results.markovRight += 1;
+  results.markovTotal += 1;
+  results.rnnRight +=1;
+  results.rnnTotal +=1;
+  res.send(results);
+});
+
 app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
 	     res.render('turing',
@@ -161,8 +189,12 @@ app.get('/eap/', function (req, res) {
 });
 
 app.post('/eap/ajaxSendData', function(req, res) {
+    if (!(req.body.trial_id in trials)) {
+	res.send({"result": false});
+	return;
+    }
     trials[req.body.trial_id].answer = req.body.answer;
-    console.log(tallyResults());
+
     res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
@@ -177,6 +209,10 @@ app.get('/eap/ajaxGetData', function(req, res){
        "poem2textcolor": trial.poem2textcolor
 		 });
     });
+});
+
+app.get('/eap/scores', function(req, res) {
+    res.render("leaderboard", {});
 });
 
 app.get('/eap/scoreboard', function (req, res) {

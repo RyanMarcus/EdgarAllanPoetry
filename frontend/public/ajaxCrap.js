@@ -38,7 +38,6 @@ function updateCounter(result) {
     var percent = ~~(100 * correct/total);
 
     $("#score").text(percent + "%" + " (" + correct + "/" + total + ")");
-	
 }
 
 function updatePoems(){
