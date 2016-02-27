@@ -5,7 +5,10 @@ $(document).ready(function() {
     	$.post("/eap/ajaxSendData",
     	       {'trial_id': trial_id,
     		'answer': poem_id},
-    	       function () {});
+    	       function (res) {
+		   console.log(JSON.stringify(res));
+		   updateCounter(res.result);
+	       });
 
     	updatePoems();
     });
@@ -16,11 +19,27 @@ $(document).ready(function() {
     	$.post("/eap/ajaxSendData",
     	       {'trial_id': trial_id,
     		'answer': poem_id},
-    	       function () {});
+    	       function (res) {
+		   console.log(JSON.stringify(res));
+		   updateCounter(res.result);
+	       });
 
     	updatePoems();
     });
 });
+
+
+var correct = 0;
+var total = 0;
+function updateCounter(result) {
+    if (result)
+	correct++;
+
+    total++;
+
+    $("#score").text(correct + " / " + total);
+	
+}
 
 function updatePoems(){
     $.ajax({url: "/eap/ajaxGetData", success: function(result){

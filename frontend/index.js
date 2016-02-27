@@ -150,7 +150,7 @@ app.get('/eap/', function (req, res) {
 app.post('/eap/ajaxSendData', function(req, res) {
     trials[req.body.trial_id].answer = req.body.answer;
     console.log(tallyResults());
-    res.send("");
+    res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
 app.get('/eap/ajaxGetData', function(req, res){
