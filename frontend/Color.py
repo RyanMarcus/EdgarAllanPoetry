@@ -5,11 +5,4 @@ happy_thresh = 0.75
 sad_thresh = 0.25
 str = stdin.read()
 val = ind.sentiment_hq(str)
-if val > sad_thresh:
-	if val < happy_thresh:
-		print("m")
-	else:
-		print("t")
-else:
-	print("f")
 print(val)
