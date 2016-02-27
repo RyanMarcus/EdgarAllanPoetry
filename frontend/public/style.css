@@ -24,8 +24,6 @@ h2 {
 }
 
 #choice1, #choice2 {
-  border: 1px solid white;
-  border-radius: 4px;
   padding: 40px;
   line-height: 175%;
 }
