@@ -177,6 +177,10 @@ app.get('/eap/', function (req, res) {
 });
 
 app.post('/eap/ajaxSendData', function(req, res) {
+    if (!(req.body.trial_id in trials)) {
+	res.send({"result": false});
+	return;
+    }
     trials[req.body.trial_id].answer = req.body.answer;
     console.log(tallyResults());
     res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
