@@ -44,28 +44,17 @@ h2 {
 
 .container {position: relative;}
 
-#box {
-    height: 100px;
-    width: 100px;
-    background-color: #777;
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    opacity: 0;
+@media screen and (max-width:450px) {
+  #choice1, #choice2 {
+    padding: 10px;
+  }
 }
-
-@-webkit-keyframes demo {
-    0% {
-        background-color: Yellow;
-        opacity:1;
-    }
-    22% {
-        background-color: Yellow;
-    }
-    77% {
-        background-color: Red;
-    }
-    100% {
-        background-color: #777;
-    }
+@media screen and (max-width:250px) {
+  #choice1, #choice2 {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 4em;
+    margin: auto;
+  }
 }
