@@ -1,65 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/eap/style.css" type="css">
 
-
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700" rel="stylesheet" type="text/css">
 
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
     <script src="/eap/chartAjax.js"></script>
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-
-
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <a style="font-family: Source Code Pro" class="navbar-brand" href="#">Edgar Allan Poetry: A Turing Test</a>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <center>
+            <h1 class="smaller">Edgar Allen Poetry: A Turing Test</h1>
+            <h2>Which poems were most believable?</h2>
+            <h2 id="score"></h2>
+          </center>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-	    
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </div>
 
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6" align="center">
-	  <h1 style="font-family: Source Code Pro">RNN</h1>
-          <canvas id="rnn" width="300" height="300"></canvas>
-	  <h1 id="rnnP" align="center" style="font-family: Source Code Pro">35%</h1>
+        <div class="six columns">
+          <center>
+	           <h1 class="thisisforyouryan" style="font-family: Source Code Pro">RNN</h2>
+             <canvas id="rnn" width="300" height="300"></canvas>
+	            <h2 class="thisisforyouryan" id="rnnP" align="center" style="font-family: Source Code Pro">35%</h1>
+          </center>
         </div>
-
-
-	<div class="col-md-6" align="center">
-	  <h1 style="font-family: Source Code Pro">Markov</h2>
-          <canvas id="markov" width="300" height="300"></canvas>
-
-	  <h2 id="markovP" align="center" style="font-family: Source Code Pro">35%</h2>
+        <div class="six columns">
+          <center>
+	           <h1 class="thisisforyouryan" style="font-family: Source Code Pro">Markov</h2>
+             <canvas id="markov" width="300" height="300"></canvas>
+	            <h2 class="thisisforyouryan" id="markovP" align="center" style="font-family: Source Code Pro">35%</h1>
+          </center>
         </div>
+      </div>
 
       </div>
     </div>
   </body>
 </html>
-
-

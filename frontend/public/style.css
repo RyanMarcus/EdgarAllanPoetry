@@ -8,6 +8,13 @@
 
 body {
   background-color: #F2F1EF;
+  background: repeating-linear-gradient(
+    45deg,
+    #EEEEEE,
+    #EEEEEE 5px,
+    #F2F1EF 5px,
+    #F2F1EF 10px
+  );
 }
 
 h1 {
@@ -15,6 +22,14 @@ h1 {
   font-family: 'Source Code Pro';
   font-size: 6em;
   margin-bottom: 15px;
+}
+
+.smaller {
+  font-size: 4em;
+}
+
+.thisisforyouryan {
+  font-size:3em;
 }
 
 h2 {
@@ -53,5 +68,12 @@ h2 {
   h1 {
     font-size: 4em;
     margin: auto;
+  }
+  .smaller {
+    font-size:2em;
+  }
+
+  .thisisforyouryan {
+    font-size:2em;
   }
 }

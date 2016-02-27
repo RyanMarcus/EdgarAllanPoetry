@@ -2,24 +2,24 @@ var markovData = [
     {
 	label: 'Markov Chain Correct',
 	value: 5,
-	color: '#811BD6'
+	color: '#174D6B'
     },
     {
 	label: 'Markov Chain Incorrect',
 	value: 5,
-	color: '#6AE128'
+	color: '#91C6B2'
     }
 ];
 var rnnData = [
     {
 	label: 'Recurrent Neural Network Correct',
 	value: 5,
-	color: '#811BD6'
+	color: '#174D6B'
     },
     {
 	label: 'Recurrant Neural Network Incorrect',
 	value: 5,
-	color: '#6AE128'
+	color: '#91C6B2'
     }
 ];
 var markovChart;
@@ -58,8 +58,8 @@ function getTotals() {
 	
 	$("#rnnP").text(100-(~~((result.rnnRight / result.rnnTotal)*100)) + "%");
 
-	
-	
+
+
     }});
 
 }
