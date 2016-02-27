@@ -54,8 +54,9 @@ function getTotals() {
 
 
 	console.log(JSON.stringify(result));
-	$("#markovP").text(~~((result.markovRight / result.markovTotal)*100) + "%");
-	$("#rnnP").text(~~((result.rnnRight / result.rnnTotal)*100) + "%");
+	$("#markovP").text(100-(~~((result.markovRight / result.markovTotal)*100)) + "%");
+	
+	$("#rnnP").text(100-(~~((result.rnnRight / result.rnnTotal)*100)) + "%");
 
 	
 	
