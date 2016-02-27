@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-app.use(express.static("css"));
 app.use(express.static('public'));
 const pythonShell = require('python-shell');
 const bodyParser = require('body-parser');
@@ -41,11 +40,11 @@ app.get('/', function (req, res) {
   });
 });
 
-
 app.post('/ajaxSendData', function(req, res) {
   res.send(req.body);
   //res.send(true);
 });
+
 app.get('/ajaxGetData', function(req, res){
 //Copied from '/' because I didn't want to make 3 1 line methods
   var options = { pythonPath: 'python3'}
