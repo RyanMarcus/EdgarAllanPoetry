@@ -31,16 +31,19 @@ function getPoem(type) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
-    } else if (type =="rnn") {
+	return toR.promise;
+    } else if (type == "rnn") {
     	pythonShell.run('pick_selection_rnn.py', options, function (err, poem) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
+	return toR.promise;
     } else if (type == "markov") {
     	pythonShell.run('pick_selection_markov.py', options, function (err, poem) {
     	    poem = poem.join("<br />");
     	    toR.resolve(poem);
     	});
+	return toR.promise;
     }
     return toR.promise;
 }
@@ -65,39 +68,50 @@ function generateTrial() {
     ];
 
     return Q.all(poems).then(function (poems) {
-	return Q.all([indico.sentiment(poems[0]),
-		      indico.sentiment(poems[1])])
-	    .then(function (sent) {
-		return {
+    	return Q.all([indico.sentiment(poems[0]),
+    		            indico.sentiment(poems[1])])
+    	.then(function (sent) {
+    		return {
       		    "poems": poems,
       		    "trial_id": trial_id,
-		    "poem1sentiment": sentToColor(sent[0]),
-		    "poem2sentiment": sentToColor(sent[1])
-      		};
+		          "poem1sentiment": sentToColor(sent[0]),
+		          "poem2sentiment": sentToColor(sent[1]),
+              "poem1textcolor": textColor(sent[0]),
+              "poem2textcolor": textColor(sent[1])
+    		};
 	    });
-
-
-
     });
 }
 
 function sentToColor(num) {
-    if (num < .1) {
-	return ("#34495E");
-    } else if (num > .1 && num < .15) {
-	return ("#4B77BE");
-    } else if (num > .15 && num < .35) {
-	return ("#22A7F0");
-    } else if (num > .35 && num < .45) {
-	return ("#1BA39C");
-    } else if (num > .55 && num < .65) {
-	return ("#66CC99");
-    } else if (num > .65 && num < .75) {
-	return ("#913D88");
+    if (num < .25) {
+	     return ("#2E3E56");
+    } else if (num > .25 && num < .45) {
+	     return ("#174D6B");
+    } else if (num > .45 && num < .55) {
+	     return ("#4E8981");
+    } else if (num > .55 && num < .75) {
+	     return ("#91C6B2");
     } else if (num > .75) {
-	return ("#F9BF3B");
+      return ("#FCEDC9");
     } else {
-	return ("#000000");
+	     return ("#FCEDC9");
+    }
+}
+
+function textColor(num) {
+    if (num < .25) {
+	     return ("#F2F1EF");
+    } else if (num > .25 && num < .45) {
+	     return ("#F2F1EF");
+    } else if (num > .45 && num < .55) {
+	     return ("#F2F1EF");
+    } else if (num > .55 && num < .75) {
+	     return ("#2E3E56");
+    } else if (num > .75) {
+      return ("#2E3E56");
+    } else {
+	     return ("#2E3E56");
     }
 }
 
@@ -112,21 +126,21 @@ function tallyResults() {
     var markovRight = 0;
 
     for (var key in trials) {
-	var trial = trials[key];
-	if (!trial.answer)
-            continue;
+    	var trial = trials[key];
+    	if (!trial.answer)
+                continue;
 
-	if (trial.type == "rnn") {
+    	if (trial.type == "rnn") {
             rnnTotal++;
             if (trial.fake_poem != trial.answer) {
-      		rnnRight++;
+          		rnnRight++;
             }
-	} else if (trial.type == "markov") {
+    	} else if (trial.type == "markov") {
             markovTotal++;
             if (trial.fake_poem != trial.answer) {
-      		markovRight++;
+          		markovRight++;
             }
-	}
+    	}
     }
 
     return {"rnnTotal": rnnTotal,
@@ -151,12 +165,14 @@ app.get('/eap/chartInfo', function(req, res){
 
 app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
-	res.render('turing',
+	     res.render('turing',
     		   { "poem1": trial.poems[0],
     		     "poem2": trial.poems[1],
     		     "trial_id": trial.trial_id,
-		     "poem1sentiment": trial.poem1sentiment,
-		     "poem2sentiment": trial.poem2sentiment
+		         "poem1sentiment": trial.poem1sentiment,
+		         "poem2sentiment": trial.poem2sentiment,
+             "poem1textcolor": trial.poem1textcolor,
+             "poem2textcolor": trial.poem2textcolor
     		   });
     });
 });
@@ -164,7 +180,7 @@ app.get('/eap/', function (req, res) {
 app.post('/eap/ajaxSendData', function(req, res) {
     trials[req.body.trial_id].answer = req.body.answer;
     console.log(tallyResults());
-    res.send("");
+    res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
 app.get('/eap/ajaxGetData', function(req, res){
@@ -173,7 +189,9 @@ app.get('/eap/ajaxGetData', function(req, res){
 		   "poem2": trial.poems[1],
 		   "trial_id": trial.trial_id,
 		   "poem1color": trial.poem1sentiment,
-		   "poem2color": trial.poem2sentiment
+		   "poem2color": trial.poem2sentiment,
+       "poem1textcolor": trial.poem1textcolor,
+       "poem2textcolor": trial.poem2textcolor
 		 });
     });
 });
