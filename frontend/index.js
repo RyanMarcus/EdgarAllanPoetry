@@ -27,6 +27,15 @@ app.get('/', function (req, res) {
   });
 });
 
+app.get('/scoreboard', function (req, res) {
+  var people = [
+    { "name": "John", "correct": 5, "incorrect": 5, "percent correct": "50%"},
+    { "name": "Some other guy", "correct": 100, "incorrect": 25, "percent correct": "asfa$%"},
+    { "name": "mmmhmmm", "correct": 22, "incorrect": 2, "percent correct": "%gds%"}
+  ]
+  res.render('scoreboard', {"people": people});
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
