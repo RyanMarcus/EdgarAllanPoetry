@@ -9,6 +9,7 @@ EdgarAllanPoetry tests users' ability to tell computer-generated poetry from tha
 ## How we built it
 
 The poetry is generated randomly in three ways:
+
 1.  Poems pulled verbatim from their authors
 2.  Poems generated using a Markov Chain on the same corpus
 3.  Poems generated using a Long Short Term Memory Recurrent Neural Network (lstm rnn) with TensorFlow and Keras on the corpus.
