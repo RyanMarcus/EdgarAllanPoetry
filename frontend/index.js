@@ -133,7 +133,7 @@ function tallyResults() {
 	    "markovRight": markovRight};
 }
 
-app.get('/', function (req, res) {
+app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
 	res.render('turing',
     		   { "poem1": trial.poems[0],
@@ -145,13 +145,13 @@ app.get('/', function (req, res) {
     });
 });
 
-app.post('/ajaxSendData', function(req, res) {
+app.post('/eap/ajaxSendData', function(req, res) {
     trials[req.body.trial_id].answer = req.body.answer;
     console.log(tallyResults());
     res.send("");
 });
 
-app.get('/ajaxGetData', function(req, res){
+app.get('/eap/ajaxGetData', function(req, res){
     generateTrial().then(function (trial) {
     	res.send({ "poem1": trial.poems[0],
 		   "poem2": trial.poems[1],
@@ -162,7 +162,7 @@ app.get('/ajaxGetData', function(req, res){
     });
 });
 
-app.get('/scoreboard', function (req, res) {
+app.get('/eap/scoreboard', function (req, res) {
     var people = [
     	{ "name": "John", "correct": 5, "incorrect": 5, "percent correct": "50%"},
     	{ "name": "Some other guy", "correct": 100, "incorrect": 25, "percent correct": "asfa$%"},
