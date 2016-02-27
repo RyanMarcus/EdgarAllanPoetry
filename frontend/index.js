@@ -194,7 +194,7 @@ app.post('/eap/ajaxSendData', function(req, res) {
 	return;
     }
     trials[req.body.trial_id].answer = req.body.answer;
-    console.log(tallyResults());
+
     res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
