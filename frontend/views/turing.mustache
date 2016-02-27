@@ -2,9 +2,13 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
   <link rel="stylesheet" href="style.css" type="css">
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="ajaxCrap.js"></script>
 </head>
 <body>
+<script>
 
+</script>
   <div class="container">
     <div class="row">
       <div class="twelve columns">
@@ -16,16 +20,20 @@
 
     <div class="row">
       <div class="six columns choice1 wordwrap">
-        <button>This one?</button>
+        <button id="poem1Button" poem_id="{{#poem1_id}} {{.}}{{/poem1_id}}" class="poemButton">This one?</button>
+        <p id="poem1">
         {{#poem1}}
         {{.}}
         {{/poem1}}
+      </p>
       </div>
       <div class="six columns choice2 wordwrap">
-        <button>This one?</button>
+        <button id="poem2Button" poem_id="{{#poem2_id}}{{.}}{{/poem2_id}}" class="poemButton">This one?</button>
+        <p id="poem2">
         {{#poem2}}
         {{.}}
         {{/poem2}}
+      </p>
       </div>
     </div>
   </div>
