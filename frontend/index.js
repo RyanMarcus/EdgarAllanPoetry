@@ -10,6 +10,11 @@ const mustache = require('mustache-express');
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 
+
+const indico = require('indico.io');
+
+indico.apiKey = "b88a14d4a97b56a6ed8f65efee05f9c4";
+
 var testing = true;
 
 var last_trial_id = 0;
@@ -58,58 +63,44 @@ function generateTrial() {
     ];
 
     return Q.all(poems).then(function (poems) {
-      var poem1sentiment = getSentiment(poems[0]);
-      var poem2sentiment = getSentiment(poems[1]);
-        return {
-      	    "poems": poems,
-      	    "trial_id": trial_id
-      	};
+	return Q.all([indico.sentiment(poems[0]),
+		      indico.sentiment(poems[1])])
+	    .then(function (sent) {
+		return {
+      		    "poems": poems,
+      		    "trial_id": trial_id,
+		    "poem1sentiment": sentToColor(sent[0]),
+		    "poem2sentiment": sentToColor(sent[1])
+      		};
+	    });
+	
+	
 
     });
 }
 
-function getSentiment(poem) {
-  var toreturn = Q.defer();
-
-  var colorsshell = new pythonShell('Color.py');
-  colorsshell.send(poem);
-
-  colorsshell.on('message', function(message) {
-    console.log("dssds");
-    num = parseFloat(message);
+function sentToColor(num) {
     if (num < .1) {
-      toreturn.resolve("#34495E");
-      return;
+	return ("#34495E");
     } else if (num > .1 && num < .15) {
-      toreturn.resolve("#4B77BE");
-      return;
+	return ("#4B77BE");
     } else if (num > .15 && num < .35) {
-      toreturn.resolve("#22A7F0");
-      return;
+	return ("#22A7F0");
     } else if (num > .35 && num < .45) {
-      toreturn.resolve("#1BA39C");
-      return;
+	return ("#1BA39C");
     } else if (num > .55 && num < .65) {
-      toreturn.resolve("#66CC99");
-      return;
+	return ("#66CC99");
     } else if (num > .65 && num < .75) {
-      toreturn.resolve("#913D88");
-      return;
+	return ("#913D88");
     } else if (num > .75) {
-      toreturn.resolve("#F9BF3B");
-      return;
+	return ("#F9BF3B");
+    } else {
+	return ("#000000");
     }
-  });
-
-  colorsshell.end(function (err) {
-    if (err) throw err;
-  });
-
-  return toreturn.promise;
 }
 
 function flip() {
-  return Math.floor((Math.random() * 2));
+    return Math.floor((Math.random() * 2));
 }
 
 function tallyResults() {
@@ -119,21 +110,21 @@ function tallyResults() {
     var markovRight = 0;
 
     for (var key in trials) {
-      var trial = trials[key];
-      if (!trial.answer)
-          continue;
+	var trial = trials[key];
+	if (!trial.answer)
+            continue;
 
-      if (trial.type == "rnn") {
-          rnnTotal++;
-          if (trial.fake_poem != trial.answer) {
-      	     rnnRight++;
-          }
-      } else if (trial.type == "markov") {
-          markovTotal++;
-          if (trial.fake_poem != trial.answer) {
-      	     markovRight++;
-          }
-      }
+	if (trial.type == "rnn") {
+            rnnTotal++;
+            if (trial.fake_poem != trial.answer) {
+      		rnnRight++;
+            }
+	} else if (trial.type == "markov") {
+            markovTotal++;
+            if (trial.fake_poem != trial.answer) {
+      		markovRight++;
+            }
+	}
     }
 
     return {"rnnTotal": rnnTotal,
@@ -144,13 +135,13 @@ function tallyResults() {
 
 app.get('/', function (req, res) {
     generateTrial().then(function (trial) {
-	     res.render('turing',
-    	   { "poem1": trial.poems[0],
-    	     "poem2": trial.poems[1],
-    	     "trial_id": trial.trial_id,
-           "poem1sentiment": trial.poem1sentiment,
-           "poem2sentiment": trial.poem2sentiment
-    	   });
+	res.render('turing',
+    		   { "poem1": trial.poems[0],
+    		     "poem2": trial.poems[1],
+    		     "trial_id": trial.trial_id,
+		     "poem1sentiment": trial.poem1sentiment,
+		     "poem2sentiment": trial.poem2sentiment
+    		   });
     });
 });
 
@@ -163,9 +154,11 @@ app.post('/ajaxSendData', function(req, res) {
 app.get('/ajaxGetData', function(req, res){
     generateTrial().then(function (trial) {
     	res.send({ "poem1": trial.poems[0],
-          "poem2": trial.poems[1],
-          "trial_id": trial.trial_id
-        });
+		   "poem2": trial.poems[1],
+		   "trial_id": trial.trial_id,
+		   "poem1color": trial.poem1sentiment,
+		   "poem2color": trial.poem2sentiment
+		 });
     });
 });
 
