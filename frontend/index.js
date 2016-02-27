@@ -182,6 +182,10 @@ app.get('/eap/ajaxGetData', function(req, res){
     });
 });
 
+app.get('/eap/scores', function(req, res) {
+    res.render("leaderboard", {});
+});
+
 app.get('/eap/scoreboard', function (req, res) {
     var people = [
     	{ "name": "John", "correct": 5, "incorrect": 5, "percent correct": "50%"},
