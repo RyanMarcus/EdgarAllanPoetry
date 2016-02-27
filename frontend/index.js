@@ -150,11 +150,10 @@ function tallyResults() {
 }
 
 app.get('/eap/charts', function(req, res) {
-  res.render('charts')
+    res.render('charts');
 });
 
 app.get('/eap/chartInfo', function(req, res){
-  console.log('chartInfo called');
   var results = tallyResults();
   results.markovRight += 1;
   results.markovTotal += 1;
