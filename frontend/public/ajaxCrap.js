@@ -2,10 +2,13 @@ $(document).ready(function() {
     $("#poem1Button").click(function() {
     	var trial_id = $("#poem1Button").attr("trial_id");
     	var poem_id = 0;
-    	$.post("/ajaxSendData",
+    	$.post("/eap/ajaxSendData",
     	       {'trial_id': trial_id,
     		'answer': poem_id},
-    	       function () {});
+    	       function (res) {
+		   console.log(JSON.stringify(res));
+		   updateCounter(res.result);
+	       });
 
     	updatePoems();
     });
@@ -13,17 +16,33 @@ $(document).ready(function() {
     $("#poem2Button").click(function() {
     	var trial_id = $("#poem2Button").attr("trial_id");
     	var poem_id = 1;
-    	$.post("/ajaxSendData",
+    	$.post("/eap/ajaxSendData",
     	       {'trial_id': trial_id,
     		'answer': poem_id},
-    	       function () {});
+    	       function (res) {
+		   console.log(JSON.stringify(res));
+		   updateCounter(res.result);
+	       });
 
     	updatePoems();
     });
 });
 
+
+var correct = 0;
+var total = 0;
+function updateCounter(result) {
+    if (result)
+	correct++;
+
+    total++;
+
+    $("#score").text(correct + " / " + total);
+	
+}
+
 function updatePoems(){
-    $.ajax({url: "/ajaxGetData", success: function(result){
+    $.ajax({url: "/eap/ajaxGetData", success: function(result){
   	document.getElementById('choice1').innerHTML = result.poem1;
   	document.getElementById('choice2').innerHTML = result.poem2;
 

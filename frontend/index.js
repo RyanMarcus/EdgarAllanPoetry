@@ -1,7 +1,9 @@
 var express = require('express');
 var app = express();
 var Q = require("q");
-app.use(express.static('public'));
+
+app.use("/eap/", express.static('public'));
+
 const pythonShell = require('python-shell');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
@@ -63,10 +65,17 @@ function generateTrial() {
     ];
 
     return Q.all(poems).then(function (poems) {
+<<<<<<< HEAD
     	return Q.all([indico.sentiment(poems[0]),
     		            indico.sentiment(poems[1])])
     	.then(function (sent) {
     		return {
+=======
+	return Q.all([indico.sentimenthq(poems[0]),
+		      indico.sentimenthq(poems[1])])
+	    .then(function (sent) {
+		return {
+>>>>>>> d0f0d6f599ed29a5610151c2acea3cc8819b8e93
       		    "poems": poems,
       		    "trial_id": trial_id,
 		          "poem1sentiment": sentToColor(sent[0]),
@@ -144,7 +153,7 @@ function tallyResults() {
 	    "markovRight": markovRight};
 }
 
-app.get('/', function (req, res) {
+app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
 	     res.render('turing',
     		   { "poem1": trial.poems[0],
@@ -158,13 +167,13 @@ app.get('/', function (req, res) {
     });
 });
 
-app.post('/ajaxSendData', function(req, res) {
+app.post('/eap/ajaxSendData', function(req, res) {
     trials[req.body.trial_id].answer = req.body.answer;
     console.log(tallyResults());
-    res.send("");
+    res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
-app.get('/ajaxGetData', function(req, res){
+app.get('/eap/ajaxGetData', function(req, res){
     generateTrial().then(function (trial) {
     	res.send({ "poem1": trial.poems[0],
 		   "poem2": trial.poems[1],
@@ -177,7 +186,7 @@ app.get('/ajaxGetData', function(req, res){
     });
 });
 
-app.get('/scoreboard', function (req, res) {
+app.get('/eap/scoreboard', function (req, res) {
     var people = [
     	{ "name": "John", "correct": 5, "incorrect": 5, "percent correct": "50%"},
     	{ "name": "Some other guy", "correct": 100, "incorrect": 25, "percent correct": "asfa$%"},
@@ -186,6 +195,6 @@ app.get('/scoreboard', function (req, res) {
     res.render('scoreboard', {"people": people});
 });
 
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+app.listen(3001, "127.0.0.1", function () {
+    console.log("Running");
 });
