@@ -20,7 +20,6 @@ h1 {
 h2 {
   color: #1BBC9B;
   font-size: 1.3em;
-  margin-bottom: 6rem;
 }
 
 #choice1, #choice2 {
@@ -34,6 +33,39 @@ h2 {
   border-color: #1BBC9B;
 }
 
+.button:focus, .button:hover, button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=submit]:focus, input[type=submit]:hover {
+  color: white;
+  background-color: #1BBC9B;
+  border-color: #1BBC9B;
+}
 .poem {
-    margin-bottom: 30px;
+    margin: 15px;
+}
+
+.container {position: relative;}
+
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: #777;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    opacity: 0;
+}
+
+@-webkit-keyframes demo {
+    0% {
+        background-color: Yellow;
+        opacity:1;
+    }
+    22% {
+        background-color: Yellow;
+    }
+    77% {
+        background-color: Red;
+    }
+    100% {
+        background-color: #777;
+    }
 }
