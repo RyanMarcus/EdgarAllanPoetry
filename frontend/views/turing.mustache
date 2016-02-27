@@ -1,6 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css" type="css">
 </head>
 <body>
@@ -9,20 +10,27 @@
     <div class="row">
       <div class="twelve columns">
         <center>
-          <span class="turingtest"><h1>TURING TEST </h1></span>
+          <h1>POETRY TURING TEST</h1>
+          <h2> Are you smarter than a turing machine? Pick the poem that is written by a human.</h2>
         </center>
       </div>
     </div>
 
     <div class="row">
+      <div class="six columns">
+        <center><button class="button-primary">This one?</button></center>
+      </div>
+      <div class="six columns">
+        <center><button class="button-primary">This one?</button></center>
+      </div>
+    </div>
+    <div class="row">
       <div class="six columns choice1 wordwrap">
-        <button>This one?</button>
         {{#poem1}}
         {{.}}
         {{/poem1}}
       </div>
       <div class="six columns choice2 wordwrap">
-        <button>This one?</button>
         {{#poem2}}
         {{.}}
         {{/poem2}}

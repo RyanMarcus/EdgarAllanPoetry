@@ -5,3 +5,36 @@
    white-space: -o-pre-wrap;   /* Opera 7 */
    word-wrap: break-word;      /* IE */
 }
+
+body {
+  background-color: #1BBC9B;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Code Pro';
+  font-size: 6em;
+}
+
+h2 {
+  color: white;
+  font-size: 1.3em;
+}
+
+.choice1, .choice2 {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.button.button-primary, button.button-primary, input[type=button].button-primary, input[type=reset].button-primary, input[type=submit].button-primary {
+  color: #1BBC9B;
+  background-color: white;
+  border-color: white;
+}
+
+.button.button-primary:focus, .button.button-primary:hover, button.button-primary:focus, button.button-primary:hover, input[type=button].button-primary:focus, input[type=button].button-primary:hover, input[type=reset].button-primary:focus, input[type=reset].button-primary:hover, input[type=submit].button-primary:focus, input[type=submit].button-primary:hover {
+  color: white;
+  background-color:#1BBC9B;
+  border-color: white;
+}
