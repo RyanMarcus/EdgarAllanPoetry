@@ -7,9 +7,6 @@
       <script src="/eap/ajaxCrap.js"></script>
   </head>
   <body>
-    <script>
-
-    </script>
     <div class="container">
       <div class="row">
         <div class="twelve columns">
@@ -22,31 +19,20 @@
 
       <div class="row">
         <div class="six columns">
-          <div class="row">
             <center>
               <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+              <div class="poem wordwrap" id="choice1" style="background-color: {{poem1sentiment}}; color: {{poem1textcolor}}">{{{poem1}}}</div>
             </center>
-          </div>
-
-          <div class="row">
-            <div class="poem twelve columns wordwrap" id="choice1" style="background-color: {{poem1sentiment}}">{{{poem1}}}</div>
-          </div>
         </div>
-
-
 
         <div class="six columns">
-          <div class="row">
             <center>
               <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+              <div class="poem wordwrap" id="choice2" style="background-color: {{poem2sentiment}}; color: {{poem2textcolor}}">{{{poem1}}}</div>
             </center>
-          </div>
-          <div class="row">
-            <div class="poem twelve columns wordwrap" id="choice2" style="background-color: {{poem2sentiment}}">{{{poem2}}}</div>
-          </div>
-          </center>
         </div>
       </div>
+    </div>
 
   </body>
 </html>
