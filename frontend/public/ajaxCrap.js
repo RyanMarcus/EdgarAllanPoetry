@@ -34,10 +34,10 @@ var total = 0;
 function updateCounter(result) {
     if (result)
 	correct++;
-
     total++;
+    var percent = ~~(100 * correct/total);
 
-    $("#score").text(correct + " / " + total);
+    $("#score").text(percent + "%");
 	
 }
 
