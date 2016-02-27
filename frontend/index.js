@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var Q = require("q");
 app.use(express.static('public'));
 const pythonShell = require('python-shell');
 const bodyParser = require('body-parser');
@@ -11,79 +12,133 @@ app.set('view engine', 'mustache');
 
 var testing = true;
 
-var dict = {};
+var last_trial_id = 0;
+var trials = {};
 
-dict['current_id'] = 0;
-dict['correct_ids'] = new Set();
+
+function getPoem(type) {
+    var toR = Q.defer();
+    var options = { pythonPath: 'python3'};
+
+    if (type == "real") {
+	pythonShell.run('pick_selection.py', options, function (err, poem) {
+	    poem = poem.join("<br />");
+	    toR.resolve(poem);
+	});
+    } else if (type =="rnn") {
+	pythonShell.run('pick_selection_rnn.py', options, function (err, poem) {
+	    poem = poem.join("<br />");
+	    toR.resolve(poem);
+	});
+   	
+    } else if (type == "markov") {
+	pythonShell.run('pick_selection_markov.py', options, function (err, poem) {
+	    poem = poem.join("<br />");
+	    toR.resolve(poem);
+	});
+    }
+    
+
+    return toR.promise;
+}
+
+function generateTrial() {
+    var toR = Q.defer();
+    
+    // pick if we are using RNN or Markov
+    var type = (flip() == 0 ? "rnn" : "markov");
+    var fake_id = flip();
+    var trial_id = last_trial_id++;
+
+    trials[trial_id] = {
+	"fake_poem": fake_id,
+	"type": type,
+	"answer": false
+    };
+
+    var poems = [
+	getPoem(fake_id == 0 ? type : "real"),
+	getPoem(fake_id == 1 ? type : "real")
+    ];
+
+    return Q.all(poems).then(function (poems) {
+	return {
+	    "poems": poems,
+	    "trial_id": trial_id
+	};
+    });
+    
+}
+
+function flip() {
+    return Math.floor((Math.random() * 2));
+}
+
+function tallyResults() {
+
+    var rnnTotal = 0;
+    var markovTotal = 0;
+    var rnnRight = 0;
+    var markovRight = 0;
+    
+    for (var key in trials) {
+	var trial = trials[key];
+	if (!trial.answer)
+	    continue;
+
+	if (trial.type == "rnn") {
+	    rnnTotal++;
+	    if (trial.fake_poem != trial.answer) {
+		rnnRight++;
+	    }
+	    
+	} else if (trial.type == "markov") {
+	    markovTotal++;
+	    if (trial.fake_poem != trial.answer) {
+		markovRight++;
+	    }
+	    
+	}
+	
+    }
+
+    return {"rnnTotal": rnnTotal,
+	    "markovTotal": markovTotal,
+	    "rnnRight": rnnRight,
+	    "markovRight": markovRight};
+}
+
 
 app.get('/', function (req, res) {
-    var options = { pythonPath: 'python3'}
-    pythonShell.run('generate_poem.py', options, function(err, fakePoem) {
-	pythonShell.run('pick_selection.py', options, function(err, realPoem) {
-	    flip = Math.floor((Math.random() * 2));
-	    var current_id = dict['current_id']
-	    dict['current_id'] = current_id + 2;
-	    poem1_id = current_id + 1;
-	    poem2_id = current_id + 2;
+    generateTrial().then(function (trial) {
+	res.render('turing',
+		   { "poem1": trial.poems[0],
+		     "poem2": trial.poems[1],
+		     "trial_id": trial.trial_id
+		   });
 
-	    if (flip==1) {
-		dict['correct_ids'].add(poem2_id)
-		poem1 = fakePoem;
-		poem2 = realPoem;
-	    } else {
-		dict['correct_ids'].add(poem1_id)
-		poem1 = realPoem;
-		poem2 = fakePoem;
-	    }
-
-	    poem1 = poem1.join("<br/>");
-	    poem2 = poem2.join("<br/>");
-	    res.render('turing', {"poem1": poem1, "poem2": poem2, "poem1_id": poem1_id.toString(), "poem2_id": poem2_id.toString()});
-	})
     });
+
 });
 
 app.post('/ajaxSendData', function(req, res) {
-    res.send(req.body);
-    //res.send(true);
+    trials[req.body.trial_id].answer = req.body.answer;
+
+    console.log(tallyResults());
+    res.send("");
 });
 
 app.get('/ajaxGetData', function(req, res){
-    //Copied from '/' because I didn't want to make 3 1 line methods
-    var options = { pythonPath: 'python3'}
-    pythonShell.run('generate_poem.py', options, function(err, fakePoem) {
-	pythonShell.run('pick_selection.py', options, function(err, realPoem) {
-	    flip = Math.floor((Math.random() * 2));
-	    var current_id = 0
-	    current_id = dict['current_id']
-	    dict['current_id'] = current_id + 2
-	    poem1_id = current_id + 1;
-	    poem2_id = current_id + 2;
-	    console.log(realPoem);
-
-	    if (flip==1) {
-		dict['correct_ids'].add(poem2_id)
-		poem1 = fakePoem;
-		poem2 = realPoem;
-	    } else {
-		dict['correct_ids'].add(poem1_id)
-		poem1 = realPoem;
-		poem2 = fakePoem;
-	    }
-	    poem1 = poem1.join("<br/>");
-	    poem2 = poem2.join("<br/>");
-	    console.log("poem ids:");
-	    console.log(dict['correct_ids'])
-	    
-	    var result = {"poem1": poem1,
-			  "poem2": poem2,
-			  "poem1_id": poem1_id,
-			  "poem2_id": poem2_id};
-	    
-	    res.send(result);
-	});
+    generateTrial().then(function (trial) {
+	res.send({ "poem1": trial.poems[0],
+		   "poem2": trial.poems[1],
+		   "trial_id": trial.trial_id
+		 });
     });
 });
+
+
+
 app.get('/scoreboard', function (req, res) {
     var people = [
 	{ "name": "John", "correct": 5, "incorrect": 5, "percent correct": "50%"},

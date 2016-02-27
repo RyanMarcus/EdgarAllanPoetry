@@ -13,6 +13,7 @@
     "express": "^4.13.4",
     "mustache": "^2.2.1",
     "mustache-express": "^1.2.2",
-    "python-shell": "^0.3.0"
+    "python-shell": "^0.3.0",
+    "q": "^1.4.1"
   }
 }
