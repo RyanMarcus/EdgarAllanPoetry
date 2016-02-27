@@ -41,7 +41,7 @@ app.get('/', function (req, res) {
   });
 });
 
-<<<<<<< HEAD
+
 app.post('/ajaxSendData', function(req, res) {
   res.send(req.body);
   //res.send(true);
