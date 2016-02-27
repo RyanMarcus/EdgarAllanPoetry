@@ -65,8 +65,8 @@ function generateTrial() {
     ];
 
     return Q.all(poems).then(function (poems) {
-	return Q.all([indico.sentiment(poems[0]),
-		      indico.sentiment(poems[1])])
+	return Q.all([indico.sentimenthq(poems[0]),
+		      indico.sentimenthq(poems[1])])
 	    .then(function (sent) {
 		return {
       		    "poems": poems,
