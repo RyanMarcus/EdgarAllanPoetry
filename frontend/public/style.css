@@ -24,6 +24,14 @@ h1 {
   margin-bottom: 15px;
 }
 
+.smaller {
+  font-size: 4em;
+}
+
+.thisisforyouryan {
+  font-size:3em;
+}
+
 h2 {
   color: #1BBC9B;
   font-size: 1.3em;
@@ -60,5 +68,12 @@ h2 {
   h1 {
     font-size: 4em;
     margin: auto;
+  }
+  .smaller {
+    font-size:2em;
+  }
+
+  .thisisforyouryan {
+    font-size:2em;
   }
 }
