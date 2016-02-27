@@ -1,10 +1,10 @@
 let us go then, you and i,
 when the evening is spread out against the sky
 like a patient etherized upon a table
-let us go, through certain halfdeserted streets,
+let us go, through certain half-deserted streets,
 the muttering retreats
-of restless nights in onenight cheap hotels
-and sawdust restaurants with oystershells
+of restless nights in one-night cheap hotels
+and sawdust restaurants with oyster-shells
 streets that follow like a tedious argument
 of insidious intent
 to lead you to an overwhelming question
@@ -12,8 +12,8 @@ oh, do not ask, what is it?
 let us go and make our visit
 in the room the women come and go
 talking of michelangelo
-the yellow fog that rubs its back upon the windowpanes,
-the yellow smoke that rubs its muzzle on the windowpanes,
+the yellow fog that rubs its back upon the window-panes,
+the yellow smoke that rubs its muzzle on the window-panes,
 licked its tongue into the corners of the evening,
 lingered upon the pools that stand in drains,
 let fall upon its back the soot that falls from chimneys,
@@ -22,7 +22,7 @@ and seeing that it was a soft october night,
 curled once about the house, and fell asleep
 and indeed there will be time
 for the yellow smoke that slides along the street,
-rubbing its back upon the windowpanes
+rubbing its back upon the window-panes
 there will be time, there will be time
 to prepare a face to meet the faces that you meet
 there will be time to murder and create,
@@ -37,10 +37,10 @@ talking of michelangelo
 and indeed there will be time
 to wonder, do i dare? and, do i dare?
 time to turn back and descend the stair,
-with a bald spot in the middle of my hair
+with a bald spot in the middle of my hair--
 they will say how his hair is growing thin
 my morning coat, my collar mounting firmly to the chin,
-my necktie rich and modest, but asserted by a simple pin
+my necktie rich and modest, but asserted by a simple pin--
 they will say but how his arms and legs are thin
 do i dare
 disturb the universe?
@@ -52,14 +52,14 @@ i have measured out my life with coffee spoons
 i know the voices dying with a dying fall
 beneath the music from a farther room
 so how should i presume?
-and i have known the eyes already, known them all
+and i have known the eyes already, known them all--
 the eyes that fix you in a formulated phrase,
 and when i am formulated, sprawling on a pin,
 when i am pinned and wriggling on the wall,
 then how should i begin
-to spit out all the buttends of my days and ways?
+to spit out all the butt-ends of my days and ways?
 and how should i presume?
-and i have known the arms already, known them all
+and i have known the arms already, known them all--
 arms that are braceleted and white and bare
 but in the lamplight, downed with light brown hair
 is it perfume from a dress
@@ -69,7 +69,7 @@ and should i then presume?
 and how should i begin?
 shall i say, i have gone at dusk through narrow streets
 and watched the smoke that rises from the pipes
-of lonely men in shirtsleeves, leaning out of windows?
+of lonely men in shirt-sleeves, leaning out of windows?
 i should have been a pair of ragged claws
 scuttling across the floors of silent seas
 
@@ -81,7 +81,7 @@ should i, after tea and cakes and ices,
 have the strength to force the moment to its crisis?
 but though i have wept and fasted, wept and prayed,
 though i have seen my head grown slightly bald brought in upon a platter,
-i am no prophetand heres no great matter
+i am no prophet--and heres no great matter
 i have seen the moment of my greatness flicker,
 and i have seen the eternal footman hold my coat, and snicker,
 and in short, i was afraid
@@ -93,15 +93,15 @@ to have bitten off the matter with a smile,
 to have squeezed the universe into a ball
 to roll it towards some overwhelming question,
 to say i am lazarus, come from the dead,
-come back to tell you all, i shall tell you all
+come back to tell you all, i shall tell you all--
 if one, settling a pillow by her head
 should say that is not what i meant at all
 that is not it, at all
 and would it have been worth it, after all,
 would it have been worth while,
 after the sunsets and the dooryards and the sprinkled streets,
-after the novels, after the teacups, after the skirts that trail along the floor
-and this, and so much more?
+after the novels, after the teacups, after the skirts that trail along the floor--
+and this, and so much more?--
 it is impossible to say just what i mean
 but as if a magic lantern threw the nerves in patterns on a screen
 would it have been worth while
@@ -116,7 +116,7 @@ advise the prince no doubt, an easy tool,
 deferential, glad to be of use,
 politic, cautious, and meticulous
 full of high sentence, but a bit obtuse
-at times, indeed, almost ridiculous
+at times, indeed, almost ridiculous--
 almost, at times, the fool
 i grow old  i grow old
 i shall wear the bottoms of my trousers rolled
@@ -128,7 +128,7 @@ i have seen them riding seaward on the waves
 combing the white hair of the waves blown back
 when the wind blows the water white and black
 we have lingered in the chambers of the sea
-by seagirls wreathed with seaweed red and brown
+by sea-girls wreathed with seaweed red and brown
 till human voices wake us, and we drown
 they are rattling breakfast plates in basement kitchens,
 and along the trampled edges of the street
@@ -136,7 +136,7 @@ i am aware of the damp souls of housemaids
 sprouting despondently at area gates
 the brown waves of fog toss up to me
 twisted faces from the bottom of the street,
-and tear from a passerby with muddy skirts
+and tear from a passer-by with muddy skirts
 an aimless smile that hovers in the air
 and vanishes along the level of the roofs
 twelve oclock
@@ -151,7 +151,7 @@ beats like a fatalistic drum,
 and through the spaces of the dark
 midnight shakes the memory
 as a madman shakes a dead geranium
-halfpast one,
+half-past one,
 the street lamp sputtered,
 the street lamp muttered,
 the street lamp said, regard that woman
@@ -171,7 +171,7 @@ stiff and white
 a broken spring in a factory yard,
 rust that clings to the form that the strength has left
 hard and curled and ready to snap
-halfpast two,
+half-past two,
 the street lamp said,
 remark the cat which flattens itself in the gutter,
 slips out its tongue
@@ -184,7 +184,7 @@ trying to peer through lighted shutters,
 and a crab one afternoon in a pool,
 an old crab with barnacles on his back,
 gripped the end of a stick which i held him
-halfpast three,
+half-past three,
 the lamp sputtered,
 the lamp muttered in the dark
 the lamp hummed
@@ -194,7 +194,7 @@ she winks a feeble eye,
 she smiles into corners
 she smoothes the hair of the grass
 the moon has lost her memory
-a washedout smallpox cracks her face,
+a washed-out smallpox cracks her face,
 her hand twists a paper rose,
 that smells of dust and old cologne,
 she is alone
@@ -214,7 +214,7 @@ memory
 you have the key,
 the little lamp spreads a ring on the stair,
 mount
-the bed is open the toothbrush hangs on the wall,
+the bed is open the tooth-brush hangs on the wall,
 put your shoes at the door, sleep, prepare for life
 the last twist of the knife
 apeneck sweeney spreads his knees
@@ -230,11 +230,11 @@ are veiled and hushed the shrunken seas
 the person in the spanish cape
 tries to sit on sweeneys knees
 slips and pulls the table cloth
-overturns a coffeecup,
+overturns a coffee-cup,
 reorganized upon the floor
 she yawns and draws a stocking up
 the silent man in mocha brown
-sprawls at the windowsill and gapes
+sprawls at the window-sill and gapes
 the waiter brings in oranges
 bananas figs and hothouse grapes
 the silent vertebrate in brown
@@ -260,7 +260,7 @@ to stain the stiff dishonoured shroud
 as she laughed i was aware of becoming involved
 in her laughter and being part of it, until her
 teeth were only accidental stars with a talent
-for squaddrill i was drawn in by short gasps,
+for squad-drill i was drawn in by short gasps,
 inhaled at each momentary recovery, lost finally
 in the dark caverns of her throat, bruised by
 the ripple of unseen muscles an elderly waiter
@@ -274,11 +274,11 @@ shaking of her breasts could be stopped, some of
 the fragments of the afternoon might be collected,
 and i concentrated my attention with careful
 subtlety to this end
-the broadbacked hippopotamus
+the broad-backed hippopotamus
 rests on his belly in the mud
 although he seems so firm to us
 he is merely flesh and blood
-fleshandblood is weak and frail,
+flesh-and-blood is weak and frail,
 susceptible to nervous shock
 while the true church can never fail
 for it is based upon a rock
@@ -287,7 +287,7 @@ in compassing material ends,
 while the true church need never stir
 to gather in its dividends
 the potamus can never reach
-the mango on the mangotree
+the mango on the mango-tree
 but fruits of pomegranate and peach
 refresh the church from over sea
 at mating time the hippos voice
@@ -296,7 +296,7 @@ but every week we hear rejoice
 the church, at being one with god
 the hippopotamuss day
 is passed in sleep at night he hunts
-god works in a mysterious way
+god works in a mysterious way--
 the church can sleep and feed at once
 i saw the potamus take wing
 ascending from the damp savannas,
