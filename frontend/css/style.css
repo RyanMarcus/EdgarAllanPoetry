@@ -14,11 +14,13 @@ h1 {
   color: white;
   font-family: 'Source Code Pro';
   font-size: 6em;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: white;
   font-size: 1.3em;
+  margin-bottom: 6rem;
 }
 
 .choice1, .choice2 {
