@@ -1,7 +1,9 @@
 var express = require('express');
 var app = express();
 var Q = require("q");
-app.use(express.static('public'));
+
+app.use("/eap/", express.static('public'));
+
 const pythonShell = require('python-shell');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
@@ -172,5 +174,5 @@ app.get('/eap/scoreboard', function (req, res) {
 });
 
 app.listen(3001, "127.0.0.1", function () {
-    console.log('Example app listening on port 3000!');
+    console.log("Running");
 });
