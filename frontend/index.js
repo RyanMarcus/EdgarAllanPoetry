@@ -146,6 +146,19 @@ function tallyResults() {
 	    "markovRight": markovRight};
 }
 
+app.get('/eap/charts', function(req, res) {
+    res.render('charts');
+});
+
+app.get('/eap/chartInfo', function(req, res){
+  var results = tallyResults();
+  results.markovRight += 1;
+  results.markovTotal += 1;
+  results.rnnRight +=1;
+  results.rnnTotal +=1;
+  res.send(results);
+});
+
 app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
 	     res.render('turing',
@@ -177,6 +190,10 @@ app.get('/eap/ajaxGetData', function(req, res){
        "poem2textcolor": trial.poem2textcolor
 		 });
     });
+});
+
+app.get('/eap/scores', function(req, res) {
+    res.render("leaderboard", {});
 });
 
 app.get('/eap/scoreboard', function (req, res) {
