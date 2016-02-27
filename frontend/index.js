@@ -75,8 +75,8 @@ function generateTrial() {
 		    "poem2sentiment": sentToColor(sent[1])
       		};
 	    });
-	
-	
+
+
 
     });
 }
@@ -134,6 +134,20 @@ function tallyResults() {
 	    "rnnRight": rnnRight,
 	    "markovRight": markovRight};
 }
+
+app.get('/eap/charts', function(req, res) {
+  res.render('charts')
+});
+
+app.get('/eap/chartInfo', function(req, res){
+  console.log('chartInfo called');
+  var results = tallyResults();
+  results.markovRight += 1;
+  results.markovTotal += 1;
+  results.rnnRight +=1;
+  results.rnnTotal +=1;
+  res.send(results);
+});
 
 app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
