@@ -113,7 +113,7 @@ and the lamp-light oer him streaming throws his shadow on the floor
 and my soul from out that shadow that lies floating on the floor
 shall be lifted--nevermore
 published, 
-                            
+  
 the bells,
 hear the sledges with the bells--
 silver bells
@@ -228,7 +228,7 @@ to the tolling of the bells,
 of the bells, bells, bells, bells,
 bells, bells, bells--
 to the moaning and the groaning of the bells
-                            
+  
 ulalume
 the skies they were ashen and sober
 the leaves they were crisped and sere--
@@ -324,7 +324,7 @@ well i know, now, this dim lake of auber--
 this misty mid region of weir--
 well i know, now, this dank tarn of auber,--
 this ghoul-haunted woodland of weir
-                            
+  
 to helen
 i saw thee once--once only--years ago
 i must not say how many--but not many
@@ -392,7 +392,7 @@ in the sad, silent watches of my night
 while even in the meridian glare of day
 i see them still--two sweetly scintillant
 venuses, unextinguished by the sun
-                            
+  
 annabel lee
 it was many and many a year ago,
 in a kingdom by the sea,
@@ -435,7 +435,7 @@ and so, all the night-tide, i lie down by the side
 of my darling, my darling, my life and my bride,
 in her sepulchre there by the sea--
 in her tomb by the side of the sea
-                            
+  
 a valentine
 for her this rhyme is penned, whose luminous eyes,
 brightly expressive as the twins of leda,
@@ -461,7 +461,7 @@ to discover the names in this and the following poem, read the first
 letter of the first line in connection with the second letter of the
 second line, the third letter of the third line, the fourth, of the
 fourth and so on, to the end
-                            
+  
 an enigma
 seldom we find, says solomon don dunce,
 half an idea in the profoundest sonnet
@@ -477,7 +477,7 @@ bubbles--ephemeral and so transparent--
 but this is, now--you may depend upon it--
 stable, opaque, immortal--all by dint
 of the dear names that lie concealed withint
-                            
+  
 to my mother
 because i feel that, in the heavens above,
 the angels, whispering to one another,
@@ -494,7 +494,7 @@ and thus are dearer than the mother i knew
 by that infinity with which my wife
 was dearer to my soul than its soul-life
 the above was addressed to the poets mother-in-law, mrs clemm--ed
-                            
+  
 for annie
 thank heaven the crisis--
 the danger is past,
@@ -598,7 +598,7 @@ it glows with the light
 of the love of my annie--
 with the thought of the light
 of the eyes of my annie
-                            
+  
 to f--
 beloved amid the earnest woes
 that crowd around my earthly path--
@@ -614,7 +614,7 @@ some ocean throbbing far and free
 with storm--but where meanwhile
 serenest skies continually
 just oer that one bright inland smile
-                            
+  
 to frances s osgood
 thou wouldst be loved?--then let thy heart
 from its present pathway part not
@@ -624,7 +624,7 @@ so with the world thy gentle ways,
 thy grace, thy more than beauty,
 shall be an endless theme of praise
 and love a simple duty
-                            
+  
 eldorado
 gaily bedight,
 a gallant knight,
@@ -650,7 +650,7 @@ down the valley of the shadow,
 ride, boldly ride,
 the shade replied,
 if you seek for eldorado
-                            
+  
 eulalie
 i dwelt alone
 in a world of moan,
@@ -674,7 +674,7 @@ shines, bright and strong,
 astart within the sky,
 while ever to her dear eulalie upturns her matron eye--
 while ever to her young eulalie upturns her violet eye
-                            
+  
 a dream within a dream
 take this kiss upon the brow
 and, in parting from you now,
@@ -700,7 +700,7 @@ o god can i not save
 one from the pitiless wave?
 is all that we see or seem
 but a dream within a dream?
-                            
+  
 to marie louise shew
 of all who hail thy presence as the morning--
 of all to whom thine absence is the night--
@@ -720,7 +720,7 @@ the truest, the most fervently devoted,
 and think that these weak lines are written by him--
 by him who, as he pens them, thrills to think
 his spirit is communing with an angels
-                            
+  
 to marie louise shew
 not long ago, the writer of these lines,
 in the mad pride of intellectuality,
@@ -749,7 +749,7 @@ and thrilling as i see, upon the right,
 upon the left, and all the way along,
 amid empurpled vapors, far away
 to where the prospect terminates--thee only
-                            
+  
 the city in the sea
 lo death has reared himself a throne
 in a strange city lying alone
@@ -805,7 +805,7 @@ down, down that town shall settle hence,
 hell, rising from a thousand thrones,
 shall do it reverence
 ?
-                            
+  
 the sleeper
 at midnight, in the month of june,
 i stand beneath the mystic moon
@@ -868,7 +868,7 @@ some tomb from out whose sounding door
 she neer shall force an echo more,
 thrilling to think, poor child of sin
 it was the dead who groaned within
-                            
+  
 bridal ballad
 the ring is on my hand,
 and the wreath is on my brow
@@ -901,7 +901,7 @@ and my soul is sorely shaken
 lest an evil step be taken,--
 lest the dead who is forsaken
 may not be happy now
-                            
+  
 the bells--ah the bells
 the little silver bells
 how fairy-like a melody there floats
@@ -926,8 +926,8 @@ enlarged and altered transcript three months having elapsed without
 publication, another revision of the poem, similar to the current
 version, was sent, and in the following october was published in the
 union magazine
-                            
-   ulalume
+  
+ ulalume
 this poem was first published in coltons american review for december
 , as to----ulalume a ballad being reprinted immediately in
 the home journal, it was copied into various publications with the
@@ -943,15 +943,15 @@ had drawn up the spectre of a planet
 from the limbo of lunary souls--
 this sinfully scintillant planet
 from the hell of the planetary souls?
-                            
-   to helen
+  
+ to helen
 to helen mrs s helen whitman was not published until november
 , although written several months earlier it first appeared in the
 union magazine and with the omission, contrary to the knowledge or
 desire of poe, of the line, oh, god oh, heaven--how my heart beats in
 coupling those two words
-                            
-   annabel lee
+  
+ annabel lee
 annabel lee was written early in , and is evidently an expression
 of the poets undying love for his deceased bride although at least one
 of his lady admirers deemed it a response to her admiration poe sent a
@@ -964,35 +964,35 @@ poes death in the meantime the poets own copy, left among his papers,
 passed into the hands of the person engaged to edit his works, and he
 quoted the poem in an obituary of poe in the new york tribune, before
 any one else had an opportunity of publishing it
-                            
-   a valentine
+  
+ a valentine
 a valentine, one of three poems addressed to mrs osgood, appears to
 have been written early in 
-                            
-   an enigma
+  
+ an enigma
 an enigma, addressed to mrs sarah anna lewig stella, was sent to
 that lady in a letter, in november , and the following march
 appeared in sartains union magazine
-                            
-   to my mother
+  
+ to my mother
 the sonnet, to my mother maria clemm, was sent for publication to
 the short-lived flag of our union, early in , but does not appear
 to have been issued until after its authors death, when it appeared in
 the leaflets of memory for 
-                            
-   for annie
+  
+ for annie
 for annie was first published in the flag of our union, in the
 spring of  poe, annoyed at some misprints in this issue, shortly
 afterwards caused a corrected copy to be inserted in the home journal
-                            
-   to f----
+  
+ to f----
 to f---- frances sargeant osgood appeared in the broadway journal
 for april  these lines are but slightly varied from those inscribed
 to mary, in the southern literary messenger for july , and
 subsequently republished, with the two stanzas transposed, in grahams
 magazine for march , as to one departed
-                            
-   to frances s osgood
+  
+ to frances s osgood
 to f--s s o--d, a portion of the poets triune tribute to mrs
 osgood, was published in the broadway journal for september  the
 earliest version of these lines appeared in the southern literary
@@ -1000,54 +1000,54 @@ messenger for september , as lines written in an album, and was
 addressed to eliza white, the proprietors daughter slightly revised,
 the poem reappeared in burtons gentlemans magazine for august, ,
 as to----
-                            
-   eldorado
+  
+ eldorado
 although eldorado was published during poes lifetime, in , in the
 flag of our union, it does not appear to have ever received the
 authors finishing touches
-                            
-   eulalie
+  
+ eulalie
 eulalie--a song first appears in coltons american review for july,
-                            
-   a dream within a dream
+  
+ a dream within a dream
 a dream within a dream does not appear to have been published as a
 separate poem during its authors lifetime a portion of it was
 contained, in , in the piece beginning, should my early life seem,
 and in  some few lines of it were used as a conclusion to
 tamerlane in  the poet sent a friend all but the first nine lines
 of the piece as a separate poem, headed for annie
-                            
-   to marie louise shew
+  
+ to marie louise shew
 to m----l----s----, addressed to mrs marie louise shew, was written
 in february , and published shortly afterwards in the first
 posthumous collection of poes poems these lines were, for some reason,
 included in the poems written in youth, and amongst those poems they
 have hitherto been included
-                            
-    to marie louise shew
+  
+  to marie louise shew
 to----, a second piece addressed to mrs shew, and written in ,
 was also first published, but in a somewhat faulty form, in the above
 named posthumous collection
-                            
-   the city in the sea
+  
+ the city in the sea
 under the title of the doomed city the initial version of the city in
 the sea appeared in the  volume of poems by poe it reappeared as
 the city of sin, in the southern literary messenger for august ,
 whilst the present draft of it first appeared in coltons american
 review for april, 
-                            
-   the sleeper
+  
+ the sleeper
 as irene, the earliest known version of the sleeper, appeared in the
  volume it reappeared in the literary messenger for may ,
 and, in its present form, in the broadway journal for may 
-                            
-   the bridal ballad
+  
+ the bridal ballad
 the bridal ballad is first discoverable in the southern literary
 messenger for january , and, in its present compressed and revised
 form, was reprinted in the broadway journal for august, 
-                            
+  
 poems of manhood
-                            
+  
 lenore
 ah, broken is the golden bowl the spirit flown forever
 let the bell toll--a saintly soul floats on the stygian river
@@ -1075,7 +1075,7 @@ should catch the note, as it doth float up from the damned earth
 to friends above, from fiends below, the indignant ghost is riven--
 from hell unto a high estate far up within the heaven--
 from grief and groan to a golden throne beside the king of heaven
-                            
+  
 to one in paradise,
 thou wast that all to me, love,
 for which my soul did pine--
@@ -1109,7 +1109,7 @@ from love to titled age and crime,
 and an unholy pillow
 from me, and from our misty clime,
 where weeps the silver willow
-                            
+  
 the coliseum
 type of the antique rome rich reliquary
 of lofty contemplation left to time
@@ -1157,7 +1157,7 @@ not all the mysteries that in us lie--
 not all the memories that hang upon
 and cling around about us as a garment,
 clothing us in a robe of more than glory
-                            
+  
 the haunted palace
 in the greenest of our valleys
 by good angels tenanted,
@@ -1207,7 +1207,7 @@ while, like a ghastly rapid river,
 through the pale door
 a hideous throng rush out forever
 and laugh--but smile no more
-                            
+  
 the conqueror worm
 lo tis a gala night
 within the lonesome latter years
@@ -1249,7 +1249,7 @@ and the angels, all pallid and wan,
 uprising, unveiling, affirm
 that the play is the tragedy, man,
 and its hero the conqueror worm
-                            
+  
 silence
 there are some qualities--some incorporate things,
 that have a double life, which thus is made
@@ -1266,7 +1266,7 @@ but should some urgent fate untimely lot
 bring thee to meet his shadow nameless elf,
 that haunteth the lone regions where hath trod
 no foot of man, commend thyself to god
-                            
+  
 dreamland
 by a route obscure and lonely,
 haunted by ill angels only,
@@ -1324,7 +1324,7 @@ where an eidolon, named night,
 on a black throne reigns upright,
 i have wandered home but newly
 from this ultimate dim thule
-                            
+  
 to zante
 fair isle, that from the fairest of all flowers,
 thy gentlest of all gentle names dost take
@@ -1340,7 +1340,7 @@ thy memory no more accursed ground
 henceforward i hold thy flower-enamelled shore,
 o hyacinthine isle o purple zante
 isola doro fior di levante
-                            
+  
 hymn
 at morn--at noon--at twilight dim--
 maria thou hast heard my hymn
@@ -1354,65 +1354,65 @@ now, when storms of fate oercast
 darkly my present and my past,
 let my future radiant shine
 with sweet hopes of thee and thine
-                            
-   to one in paradise
+  
+ to one in paradise
 to one in paradise was included originally in the visionary a tale
 now known as the assignation, in july, , and appeared as a
 separate poem entitled to ianthe in heaven, in burtons gentlemans
 magazine for july,  the fifth stanza is now added, for the first
 time, to the piece
-                            
-   the coliseum
+  
+ the coliseum
 the coliseum appeared in the baltimore saturday visitor sic in
 , and was republished in the southern literary messenger for
 august , as a prize poem
-                            
-   the haunted palace
+  
+ the haunted palace
 the haunted palace originally issued in the baltimore american
 museum for april, , was subsequently embodied in that much admired
 tale, the fall of the house of usher, and published in it in burtons
 gentlemans magazine for september,  it reappeared in that as a
 separate poem in the  edition of poes poems
-                            
-   the conqueror worm
+  
+ the conqueror worm
 the conqueror worm, then contained in poes favorite tale of ligeia,
 was first published in the american museum for september,  as a
 separate poem, it reappeared in grahams magazine for january, 
-                            
-   silence
+  
+ silence
 the sonnet, silence, was originally published in burtons gentlemans
 magazine for april, 
-                            
-   dreamland
+  
+ dreamland
 the first known publication of dreamland was in grahams magazine
 for june, 
-                            
-   to zante
+  
+ to zante
 the sonnet to zante is not discoverable earlier than january, ,
 when it appeared in the southern literary messenger
-                            
-   hymn
+  
+ hymn
 the initial version of the catholic hymn was contained in the story of
 morella, and published in the southern literary messenger for april,
  the lines as they now stand, and with their present title, were
 first published in the broadway journal for august, 
-                            
+  
 scenes from politian
 an unpublished drama
 rome--a hall in a palace alessandra and castiglione
-alessandra     thou art sad, castiglione
-castiglione    sad--not i
+alessandra   thou art sad, castiglione
+castiglione  sad--not i
 oh, im the happiest, happiest man in rome
 a few days more, thou knowest, my alessandra,
 will make thee mine oh, i am very happy
-aless          methinks thou hast a singular way of showing
+aless  methinks thou hast a singular way of showing
 thy happiness--what ails thee, cousin of mine?
 why didst thou sigh so deeply?
-cas            did i sigh?
+cas did i sigh?
 i was not conscious of it it is a fashion,
 a silly--a most silly fashion i have
 when i am very happy did i sigh? sighing
-aless          thou didst thou art not well thou hast indulged
+aless  thou didst thou art not well thou hast indulged
 too much of late, and i am vexed to see it
 late hours and wine, castiglione,--these
 will ruin thee thou art already altered--
@@ -1422,26 +1422,26 @@ cas musing  nothing, fair cousin, nothing--
 not even deep sorrow--
 wears it away like evil hours and wine
 i will amend
-aless          do it i would have thee drop
+aless  do it i would have thee drop
 thy riotous company, too--fellows low born
 ill suit the like of old di broglios heir
 and alessandras husband
-cas            i will drop them
-aless          thou wilt--thou must attend thou also more
+cas i will drop them
+aless  thou wilt--thou must attend thou also more
 to thy dress and equipage--they are over plain
 for thy lofty rank and fashion--much depends
 upon appearances
-cas            ill see to it
-aless          then see to it--pay more attention, sir,
+cas ill see to it
+aless  then see to it--pay more attention, sir,
 to a becoming carriage--much thou wantest
 in dignity
-cas            much, much, oh, much i want
+cas much, much, oh, much i want
 in proper dignity
 aless
-haughtily     thou mockest me, sir
+haughtily   thou mockest me, sir
 cos
 abstractedly  sweet, gentle lalage
-aless          heard i aright?
+aless  heard i aright?
 i speak to him--he speaks of lalage?
 sir count
 places her hand on his shoulder
@@ -1453,7 +1453,7 @@ i crave thy pardon--indeed i am not well--
 your hand from off my shoulder, if you please
 this air is most oppressive--madam--the duke
 enter di broglio
-di broglio     my son, ive news for thee--hey
+di broglio   my son, ive news for thee--hey
 --whats the matter?
 observing alessandra
 i the pouts? kiss her, castiglione kiss her,
@@ -1462,31 +1462,31 @@ ive news for you both politian is expected
 hourly in rome--politian, earl of leicester
 well have him at the wedding tis his first visit
 to the imperial city
-aless          what politian
+aless  what politian
 of britain, earl of leicester?
-di brog        the same, my love
+di brog   the same, my love
 well have him at the wedding a man quite young
 in years, but gray in fame i have not seen him,
 but rumor speaks of him as of a prodigy
 pre-eminent in arts, and arms, and wealth,
 and high descent well have him at the wedding
-aless          i have heard much of this politian
+aless  i have heard much of this politian
 gay, volatile and giddy--is he not,
 and little given to thinking?
-di brog        far from it, love
+di brog   far from it, love
 no branch, they say, of all philosophy
 so deep abstruse he has not mastered it
 learned as few are learned
-aless          tis very strange
+aless  tis very strange
 i have known men have seen politian
 and sought his company they speak of him
 as of one who entered madly into life,
 drinking the cup of pleasure to the dregs
-cas            ridiculous now i have seen politian
+cas ridiculous now i have seen politian
 and know him well--nor learned nor mirthful he
 he is a dreamer, and shut out
 from common passions
-di brog        children, we disagree
+di brog   children, we disagree
 let us go forth and taste the fragrant air
 of the garden did i dream, or did i hear
 politian was a melancholy man?
@@ -1495,17 +1495,17 @@ rome--a ladys apartment, with a window open and looking into a garden
 lalage, in deep mourning, reading at a table on which lie some books and
 a hand-mirror in the background jacinta a servant maid leans
 carelessly upon a chair
-lalage         jacinta is it thou?
+lalage jacinta is it thou?
 jacinta
-pertly        yes, maam, im here
-lal            i did not know, jacinta, you were in waiting
+pertly   yes, maam, im here
+lal i did not know, jacinta, you were in waiting
 sit down--let not my presence trouble you--
 sit down--for i am humble, most humble
-jac aside   tis time
+jac aside tis time
 jacinta seats herself in a side-long manner upon the chair, resting
 her elbows upon the back, and regarding her mistress with a contemptuous
 look lalage continues to read
-lal            it in another climate, so he said,
+lal it in another climate, so he said,
 bore a bright golden flower, but not i this soil
 pauses--turns over some leaves and resumes
 no lingering winters there, nor snow, nor shower--
@@ -1533,22 +1533,22 @@ lean over her and keep--two gentle maids
 with gentle names--eiros and charmion
 rainbow and dove--jacinta
 jac
-pettishly    madam, what is it?
-lal            wilt thou, my good jacinta, be so kind
+pettishly  madam, what is it?
+lal wilt thou, my good jacinta, be so kind
 as go down in the library and bring me
 the holy evangelists?
-jac            pshaw
+jac pshaw
 exit
-lal            if there be balm
+lal if there be balm
 for the wounded spirit in gilead, it is there
 dew in the night time of my bitter trouble
 will there be found--dew sweeter far than that
 which hangs like chains of pearl on hermon hill
 re-enter jacinta, and throws a volume on the table
 there, maam, s the book
-aside     indeed she is very troublesome
+aside   indeed she is very troublesome
 lal
-astonished   what didst thou say, jacinta?
+astonished what didst thou say, jacinta?
 have i done aught
 to grieve thee or to vex thee?--i am sorry
 for thou hast served me long and ever been
@@ -1556,7 +1556,7 @@ trustworthy and respectful
 resumes her reading
 jac aside i cant believe
 she has any more jewels--no--no--she gave me all
-lal            what didst thou say, jacinta? now i bethink me
+lal what didst thou say, jacinta? now i bethink me
 thou hast not spoken lately of thy wedding
 how fares good ugo?--and when is it to be?
 can i do aught?--is there no further aid
@@ -1564,9 +1564,9 @@ thou needest, jacinta?
 jac aside is there no further aid
 thats meant for me  im sure, madam, you need not
 be always throwing those jewels in my teeth
-lal            jewels jacinta,--now indeed, jacinta,
+lal jewels jacinta,--now indeed, jacinta,
 i thought not of the jewels
-jac            oh, perhaps not
+jac oh, perhaps not
 but then i might have sworn it after all,
 theres ugo says the ring is only paste,
 for hes sure the count castiglione never
@@ -1576,7 +1576,7 @@ have use for jewels now but i might have sworn it
 exit
 lalage bursts into tears and leans her head upon the table--after a
 short pause raises it
-lal            poor lalage--and is it come to this?
+lal poor lalage--and is it come to this?
 thy servant maid--but courage--tis but a viper
 whom thou hast cherished to sting thee to the soul
 taking up the mirror
@@ -1597,7 +1597,7 @@ castiglione lied who said he loved----
 thou true--he false--false--false
 while she speaks, a monk enters her apartment and approaches
 unobserved
-monk           refuge thou hast,
+monk   refuge thou hast,
 sweet daughter in heaven think of eternal things
 give up thy soul to penitence, and pray
 lal
@@ -1608,8 +1608,8 @@ the sweet airs from the garden worry me
 thy presence grieves me--go--thy priestly raiment
 fills me with dread--thy ebony crucifix
 with horror and awe
-monk           think of thy precious soul
-lal            think of my early days--think of my father
+monk   think of thy precious soul
+lal think of my early days--think of my father
 and mother in heaven think of our quiet home,
 and the rivulet that ran before the door
 think of my little sisters--think of them
@@ -1619,13 +1619,13 @@ of my unspeakable misery----begone
 yet stay yet stay--what was it thou saidst of prayer
 and penitence? didst thou not speak of faith
 and vows before the throne?
-monk           i did
-lal            tis well
+monk   i did
+lal tis well
 there is a vow twere fitting should be made--
 a sacred vow, imperative and urgent,
 a solemn vow
-monk           daughter, this zeal is well
-lal            father, this zeal is anything but well
+monk   daughter, this zeal is well
+lal father, this zeal is anything but well
 hast thou a crucifix fit for this thing?
 a crucifix whereon to register
 this sacred vow? he hands her his own
@@ -1639,23 +1639,23 @@ and the deeds register should tally, father
 draws a cross-handled dagger and raises it on high
 behold the cross wherewith a vow like mine
 is written in heaven
-monk           thy words are madness, daughter,
+monk   thy words are madness, daughter,
 and speak a purpose unholy--thy lips are livid--
 thine eyes are wild--tempt not the wrath divine
 pause ere too late--oh, be not--be not rash
 swear not the oath--oh, swear it not
-lal            tis sworn
+lal tis sworn
 an apartment in a palace politian and baldazzar
-baldazzar      arouse thee now, politian
+baldazzar arouse thee now, politian
 thou must not--nay indeed, indeed, thou shalt not
 give way unto these humors be thyself
 shake off the idle fancies that beset thee
 and live, for now thou diest
-politian       not so, baldazzar
+politian  not so, baldazzar
 surely i live
-bal            politian, it doth grieve me
+bal politian, it doth grieve me
 to see thee thus
-pol            baldazzar, it doth grieve me
+pol baldazzar, it doth grieve me
 to give thee cause for grief, my honored friend
 command me, sir what wouldst thou have me do?
 at thy behest i will shake off that nature
@@ -1663,25 +1663,25 @@ which from my forefathers i did inherit,
 which with my mothers milk i did imbibe,
 and be no more politian, but some other
 command me, sir
-bal            to the field then--to the field--
+bal to the field then--to the field--
 to the senate or the field
-pol            alas alas
+pol alas alas
 there is an imp would follow me even there
 there is an imp hath followed me even there
 there is--what voice was that?
-bal            i heard it not
+bal i heard it not
 i heard not any voice except thine own,
 and the echo of thine own
-pol            then i but dreamed
-bal            give not thy soul to dreams the camp--the court
+pol then i but dreamed
+bal give not thy soul to dreams the camp--the court
 befit thee--fame awaits thee--glory calls--
 and her the trumpet-tongued thou wilt not hear
 in hearkening to imaginary sounds
 and phantom voices
-pol            it is a phantom voice
+pol it is a phantom voice
 didst thou not hear it then?
-bal             i heard it not
-pol            thou heardst it not--baldazzar, speak no more
+bal  i heard it not
+pol thou heardst it not--baldazzar, speak no more
 to me, politian, of thy camps and courts
 oh i am sick, sick, sick, even unto death,
 of the hollow and high-sounding vanities
@@ -1693,9 +1693,9 @@ a kind and gentle office, and a power--
 a power august, benignant, and supreme--
 shall then absolve thee of all further duties
 unto thy friend
-bal            thou speakest a fearful riddle
+bal thou speakest a fearful riddle
 i will not understand
-pol            yet now as fate
+pol yet now as fate
 approaches, and the hours are breathing low,
 the sands of time are changed to golden grains,
 and dazzle me, baldazzar alas alas
@@ -1708,8 +1708,8 @@ a rarer loveliness bedecks the earth--
 and with a holier lustre the quiet moon
 sitteth in heaven--hist hist thou canst not say
 thou hearest not now, baldazzar?
-bal            indeed i hear not
-pol            not hear it--listen--now--listen--the faintest sound
+bal indeed i hear not
+pol not hear it--listen--now--listen--the faintest sound
 and yet the sweetest that ear ever heard
 a ladys voice--and sorrow in the tone
 baldazzar, it oppresses me like a spell
@@ -1718,7 +1718,7 @@ into my heart of hearts that eloquent voice
 surely i never heard--yet it were well
 had i but heard it with its thrilling tones
 in earlier days
-bal            i myself hear it now
+bal i myself hear it now
 be still--the voice, if i mistake not greatly,
 proceeds from younder lattice--which you may see
 very plainly through the window--it belongs,
@@ -1728,7 +1728,7 @@ the roof of his excellency--and perhaps
 is even that alessandra of whom he spoke
 as the betrothed of castiglione,
 his son and heir
-pol            be still--it comes again
+pol be still--it comes again
 voice
 very faintly and is thy heart so strong 
 as for to leave me thus,
@@ -1737,41 +1737,41 @@ in wealth and woe among?
 and is thy heart so strong
 as for to leave me thus?
 say nay say nay
-bal            the song is english, and i oft have heard it
+bal the song is english, and i oft have heard it
 in merry england--never so plaintively--
 hist hist it comes again
 voice
-more loudly   is it so strong
+more loudly is it so strong
 as for to leave me thus,
 that have loved thee so long,
 in wealth and woe among?
 and is thy heart so strong
 as for to leave me thus?
 say nay say nay
-bal            tis hushed and all is still
-pol            all is not still
-bal            let us go down
-pol            go down, baldazzar, go
-bal            the hour is growing late--the duke awaits us,--
+bal tis hushed and all is still
+pol all is not still
+bal let us go down
+pol go down, baldazzar, go
+bal the hour is growing late--the duke awaits us,--
 thy presence is expected in the hall
 below what ails thee, earl politian?
 voice
-distinctly   who have loved thee so long,
+distinctly who have loved thee so long,
 in wealth and woe among,
 and is thy heart so strong?
 say nay say nay
-bal            let us descend--tis time politian, give
+ballet us descend--tis time politian, give
 these fancies to the wind remember, pray,
 your bearing lately savored much of rudeness
 unto the duke arouse thee and remember
-pol            remember? i do lead on i do remember
+pol remember? i do lead on i do remember
 going
 let us descend believe me i would give,
 freely would give the broad lands of my earldom
 to look upon the face hidden by yon lattice--
 to gaze upon that veiled face, and hear
 once more that silent tongue
-bal            let me beg you, sir,
+ballet me beg you, sir,
 descend with me--the duke may be offended
 let us go down, i pray you
 voice loudly say nay--say nay
@@ -1784,15 +1784,15 @@ now be this fancy, by heaven, or be it fate,
 still will i not descend baldazzar, make
 apology unto the duke for me
 i go not down to-night
-bal            your lordships pleasure
+bal your lordships pleasure
 shall be attended to good-night, politian
-pol            good-night, my friend, good-night
+pol good-night, my friend, good-night
 the gardens of a palace--moonlight lalage and politian
-lalage         and dost thou speak of love
+lalage and dost thou speak of love
 to me, politian?--dost thou speak of love
 to lalage?--ah woe--ah woe is me
 this mockery is most cruel--most cruel indeed
-politian       weep not oh, sob not thus--thy bitter tears
+politian weep not oh, sob not thus--thy bitter tears
 will madden me oh, mourn not, lalage--
 be comforted i know--i know it all,
 and still i speak of love look at me, brightest,
@@ -1811,7 +1811,7 @@ within my spirit for thee and do i love?
 arising
 even for thy woes i love thee--even for thy woes--
 thy beauty and thy woes
-lal            alas, proud earl,
+lal alas, proud earl,
 thou dost forget thyself, remembering me
 how, in thy fathers halls, among the maidens
 pure and reproachless of thy princely line,
@@ -1820,7 +1820,7 @@ thy wife, and with a tainted memory--
 my seared and blighted name, how would it tally
 with the ancestral honors of thy house,
 and with thy glory?
-pol            speak not to me of glory
+pol speak not to me of glory
 i hate--i loathe the name i do abhor
 the unsatisfactory and ideal thing
 art thou not lalage, and i politian?
@@ -1836,33 +1836,33 @@ what matters it, my fairest, and my best,
 that we go down unhonored and forgotten
 into the dust--so we descend together?
 descend together--and then--and then perchance--
-lal            why dost thou pause, politian?
-pol            and then perchance
+lal why dost thou pause, politian?
+pol and then perchance
 arise together, lalage, and roam
 the starry and quiet dwellings of the blest,
 and still--
-lal            why dost thou pause, politian?
-pol            and still together--together
-lal            now, earl of leicester
+lal why dost thou pause, politian?
+pol and still together--together
+lal now, earl of leicester
 thou lovest me, and in my heart of hearts
 i feel thou lovest me truly
-pol            o lalage
+pol o lalage
 throwing himself upon his knee
 and lovest thou me?
-lal            hist hush within the gloom
+lal hist hush within the gloom
 of yonder trees methought a figure passed--
 a spectral figure, solemn, and slow, and noiseless--
 like the grim shadow conscience, solemn and noiseless
 walks across and returns
 i was mistaken--twas but a giant bough
 stirred by the autumn wind politian
-pol            my lalage--my love why art thou moved?
+pol my lalage--my love why art thou moved?
 why dost thou turn so pale? not conscience self,
 far less a shadow which thou likenest to it,
 should shake the firm spirit thus but the night wind
 is chilly--and these melancholy boughs
 throw over all things a gloom
-lal            politian
+lal politian
 thou speakest to me of love knowest thou the land
 with which all tongues are busy--a land new found--
 miraculously found by one of genoa--
@@ -1873,7 +1873,7 @@ and mountains, around whose towering summits the winds
 of heaven untrammelled flow--which air to breathe
 is happiness now, and will be freedom hereafter
 in days that are to come?
-pol            oh, wilt thou--wilt thou
+pol oh, wilt thou--wilt thou
 fly to that paradise--my lalage, wilt thou
 fly thither with me? there care shall be forgotten,
 and sorrow shall be no more, and eros be all
@@ -1886,9 +1886,9 @@ and worship thee, and call thee my beloved,
 my own, my beautiful, my love, my wife,
 my all--oh, wilt thou--wilt thou, lalage,
 fly thither with me?
-lal            a deed is to be done--
+lal a deed is to be done--
 castiglione lives
-pol            and he shall die
+pol and he shall die
 exit
 lal
 after a pause and--he--shall--die--alas
@@ -1910,7 +1910,7 @@ gone--gone where am i?--tis well--tis very well
 so that the blade be keen--the blow be sure,
 tis well, tis very well--alas alas
 the suburbs politian alone
-politian       this weakness grows upon me i am fain
+politian  this weakness grows upon me i am fain
 and much i fear me ill--it will not do
 to die ere i have lived--stay--stay thy hand,
 o azrael, yet awhile--prince of the powers
@@ -1921,29 +1921,29 @@ give me to live yet--yet a little while
 tis i who pray for life--i who so late
 demanded but to die--what sayeth the count?
 enter baldazzar
-baldazzar      that, knowing no cause of quarrel or of feud
+baldazzar that, knowing no cause of quarrel or of feud
 between the earl politian and himself,
 he doth decline your cartel
-pol            what didst thou say?
+pol what didst thou say?
 what answer was it you brought me, good baldazzar?
 with what excessive fragrance the zephyr comes
 laden from yonder bowers--a fairer day,
 or one more worthy italy, methinks
 no mortal eyes have seen--what said the count?
-bal            that he, castiglione, not being aware
+bal that he, castiglione, not being aware
 of any feud existing, or any cause
 of quarrel between your lordship and himself,
 cannot accept the challenge
-pol            it is most true--
+pol it is most true--
 all this is very true when saw you, sir,
 when saw you now, baldazzar, in the frigid
 ungenial britain which we left so lately,
 a heaven so calm as this--so utterly free
 from the evil taint of clouds?--and he did say?
-bal            no more, my lord, than i have told you
+bal no more, my lord, than i have told you
 the count castiglione will not fight
 having no cause for quarrel
-pol            now this is true--
+pol now this is true--
 all very true thou art my friend, baldazzar,
 and i have not forgotten it--thoult do me
 a piece of service wilt thou go back and say
@@ -1951,7 +1951,7 @@ unto this man, that i, the earl of leicester,
 hold him a villain?--thus much, i prythee, say
 unto the count--it is exceeding just
 he should have cause for quarrel
-bal            my lord--my friend--
+bal my lord--my friend--
 pol aside tis he--he comes himself
 aloud thou reasonest well
 i know what thou wouldst say--not send the message--
@@ -1959,15 +1959,15 @@ well--i will think of it--i will not send it
 now prythee, leave me--hither doth come a person
 with whom affairs of a most private nature
 i would adjust
-bal            i go--to-morrow we meet,
+bal i go--to-morrow we meet,
 do we not?--at the vatican
-pol            at the vatican
+pol at the vatican
 exit bal
 enter castiglione
-cas            the earl of leicester here
-pol            i am the earl of leicester, and thou seest,
+cas the earl of leicester here
+pol i am the earl of leicester, and thou seest,
 dost thou not, that i am here?
-cas            my lord, some strange,
+cas my lord, some strange,
 some singular mistake--misunderstanding--
 hath without doubt arisen thou hast been urged
 thereby, in heat of anger, to address
@@ -1978,12 +1978,12 @@ of nothing which might warrant thee in this thing,
 having given thee no offence ha--am i right?
 twas a mistake?--undoubtedly--we all
 do err at times
-pol            draw, villain, and prate no more
-cas            ha--draw?--and villain? have at thee then at once,
+pol draw, villain, and prate no more
+cas ha--draw?--and villain? have at thee then at once,
 proud earl
 draws
 pol
-drawing      thus to the expiatory tomb,
+drawing thus to the expiatory tomb,
 untimely sepulchre, i do devote thee
 in the name of lalage
 cas letting fall his sword and recoiling to the extremity of the
@@ -1991,16 +1991,16 @@ stage
 of lalage
 hold off--thy sacred hand--avaunt, i say
 avaunt--i will not fight thee--indeed i dare not
-pol            thou wilt not fight with me didst say, sir count?
+pol thou wilt not fight with me didst say, sir count?
 shall i be baffled thus?--now this is well
 didst say thou darest not? ha
-cas            i dare not--dare not--
+cas i dare not--dare not--
 hold off thy hand--with that beloved name
 so fresh upon thy lips i will not fight thee--
 i cannot--dare not
-pol            now, by my halidom,
+pol now, by my halidom,
 i do believe thee--coward, i do believe thee
-cas            ha--coward--this may not be
+cas ha--coward--this may not be
 clutches his sword and staggers towards politian, but his purpose is
 changed before reaching him, and he falls upon hia knee at the feet of
 the earl
@@ -2009,9 +2009,9 @@ it is--it is--most true in such a cause
 i am the veriest coward oh, pity me
 pol
 greatly softened alas--i do--indeed i pity thee
-cas            and lalage--
-pol            scoundrel--arise and die
-cas            it needeth not be--thus--thus--oh, let me die
+cas and lalage--
+pol scoundrel--arise and die
+cas it needeth not be--thus--thus--oh, let me die
 thus on my bended knee it were most fitting
 that in this deep humiliation i perish
 for in the fight i will not raise a hand
@@ -2019,7 +2019,7 @@ against thee, earl of leicester strike thou home--
 baring his bosom
 here is no let or hindrance to thy weapon--
 strike home i will not fight thee
-pol            nows death and hell
+pol nows death and hell
 am i not--am i not sorely--grievously tempted
 to take thee at thy word? but mark me, sir
 think not to fly me thus do thou prepare
@@ -2032,41 +2032,41 @@ thee,
 dost hear? with cowardice--thou wilt not fight me?
 thou liest thou shalt
 exit
-cas            now this indeed is just
+cas now this indeed is just
 most righteous, and most just, avenging heaven
-                            
-duke           why do you laugh?
-castiglione    indeed
+  
+duke   why do you laugh?
+castiglione  indeed
 i hardly know myself stay was it not
 on yesterday we were speaking of the earl?
 of the earl politian? yes it was yesterday
 alessandra, you and i, you must remember
 we were walking in the garden
-duke           perfectly
+duke   perfectly
 i do remember it--what of it--what then?
-cas            o nothing--nothing at all
-duke           nothing at all
+cas o nothing--nothing at all
+duke   nothing at all
 it is most singular that you should laugh
 at nothing at all
-cas            most singular--singular
-duke           look yon, castiglione, be so kind
+cas most singular--singular
+duke   look yon, castiglione, be so kind
 as tell me, sir, at once what tis you mean
 what are you talking of?
-cas            was it not so?
+cas was it not so?
 we differed in opinion touching him
-duke           him--whom?
-cas            why, sir, the earl politian
-duke           the earl of leicester yes--is it he you mean?
+duke   him--whom?
+cas why, sir, the earl politian
+duke   the earl of leicester yes--is it he you mean?
 we differed, indeed if i now recollect
 the words you used were that the earl you knew
 was neither learned nor mirthful
-cas            ha ha--now did i?
-duke           that did you, sir, and well i knew at the time
+cas ha ha--now did i?
+duke   that did you, sir, and well i knew at the time
 you were wrong, it being not the character
 of the earl--whom all the world allows to be
 a most hilarious man be not, my son,
 too positive again
-cas            tis singular
+cas tis singular
 most singular i could not think it possible
 so little time could so much alter one
 to say the truth about an hour ago,
@@ -2083,14 +2083,14 @@ such wit--such whim--such flashes of wild merriment
 set off too in such full relief by the grave
 demeanor of his friend--who, to speak the truth
 was gravity itself--
-duke           did i not tell you?
-cas            you did--and yet tis strange but true, as strange,
+duke   did i not tell you?
+cas you did--and yet tis strange but true, as strange,
 how much i was mistaken i always thought
 the earl a gloomy man
-duke           so, so, you see
+duke   so, so, you see
 be not too positive whom have we here?
 it cannot be the earl?
-cas            the earl oh no
+cas the earl oh no
 tis not the earl--but yet it is--and leaning
 upon his friend baldazzar ah welcome, sir
 enter politian and baldazzar
@@ -2102,7 +2102,7 @@ politian bows haughtily
 that, his friend
 baldazzar, duke of surrey the earl has letters,
 so please you, for your grace
-duke           ha ha most welcome
+duke   ha ha most welcome
 to rome and to our palace, earl politian
 and you, most noble duke i am glad to see you
 i knew your father well, my lord politian
@@ -2110,36 +2110,36 @@ castiglione call your cousin hither,
 and let me make the noble earl acquainted
 with your betrothed you come, sir, at a time
 most seasonable the wedding--
-politian       touching those letters, sir,
+politian  touching those letters, sir,
 your son made mention of--your son, is he not?--
 touching those letters, sir, i wot not of them
 if such there be, my friend baldazzar here--
 baldazzar ah--my friend baldazzar here
 will hand them to your grace i would retire
-duke           retire--so soon?
-cas            what ho benito rupert
+duke   retire--so soon?
+cas what ho benito rupert
 his lordships chambers--show his lordship to them
 his lordship is unwell
 enter benito
-ben            this way, my lord
+ben this way, my lord
 exit, followed by politian
-duke           retire unwell
-bal            so please you, sir i fear me
+duke   retire unwell
+bal so please you, sir i fear me
 tis as you say--his lordship is unwell
 the damp air of the evening--the fatigue
 of a long journey--the--indeed i had better
 follow his lordship he must be unwell
 i will return anon
-duke           return anon
+duke   return anon
 now this is very strange castiglione
 this way, my son, i wish to speak with thee
 you surely were mistaken in what you said
 of the earl, mirthful, indeed--which of us said
 politian was a melancholy man?
 exeunt
-                            
+  
 poems of youth
-                            
+  
 sonnet--to science
 science true daughter of old time thou art
 who alterest all things with thy peering eyes
@@ -2155,8 +2155,8 @@ to seek a shelter in some happier star?
 hast thou not torn the naiad from her flood,
 the elfin from the green grass, and from me
 the summer dream beneath the tamarind tree?
-                            
-                            
+  
+  
 al aaraaf 
 part i
 o nothing earthly save the ray
@@ -2826,7 +2826,7 @@ how was it that ambition crept,
 unseen, amid the revels there,
 till growing bold, he laughed and leapt
 in the tangles of loves very hair
-                            
+  
 to helen
 helen, thy beauty is to me
 like those nicean barks of yore,
@@ -2843,7 +2843,7 @@ how statue-like i see thee stand,
 the agate lamp within thy hand
 ah, psyche, from the regions which
 are holy land
-                            
+  
 the valley of unrest
 once it smiled a silent dell
 where the people did not dwell
@@ -2872,7 +2872,7 @@ they wave--from out their fragrant tops
 eternal dews come down in drops
 they weep--from off their delicate stems
 perennial tears descend in gems
-                            
+  
 israfel 
 in heaven a spirit doth dwell
 whose heart-strings are a lute
@@ -2925,7 +2925,7 @@ he might not sing so wildly well
 a mortal melody,
 while a bolder note than this might swell
 from my lyre within the sky
-                            
+  
 to----
 i heed not that my earthly lot
 hath--little of earth in it--
@@ -2935,7 +2935,7 @@ i mourn not that the desolate
 are happier, sweet, than i,
 but that you sorrow for my fate
 who am a passer-by
-                            
+  
 to----
 the bowers whereat, in dreams, i see
 the wantonest singing birds,
@@ -2949,7 +2949,7 @@ thy heart--thy heart--i wake and sigh,
 and sleep to dream till day
 of the truth that gold can never buy--
 of the baubles that it may
-                            
+  
 to the river
 fair river in thy bright, clear flow
 of crystal, wandering water,
@@ -2965,7 +2965,7 @@ for in his heart, as in thy stream,
 her image deeply lies--
 his heart which trembles at the beam
 of her soul-searching eyes
-                            
+  
 song
 i saw thee on thy bridal day--
 when a burning blush came oer thee,
@@ -2983,7 +2983,7 @@ who saw thee on that bridal day,
 when that deep blush would come oer thee,
 though happiness around thee lay,
 the world all love before thee
-                            
+  
 spirits of the dead
 thy soul shall find itself alone
 mid dark thoughts of the gray tombstone
@@ -3013,7 +3013,7 @@ shadowy--shadowy--yet unbroken,
 is a symbol and a token--
 how it hangs upon the trees,
 a mystery of mysteries
-                            
+  
 a dream
 in visions of the dark night
 i have dreamed of joy departed--
@@ -3031,7 +3031,7 @@ what though that light, thro storm and night,
 so trembled from afar--
 what could there be more purely bright
 in truths day star?
-                            
+  
 romance
 romance, who loves to nod and sing,
 with drowsy head and folded wing,
@@ -3054,7 +3054,7 @@ that little time with lyre and rhyme
 to while away--forbidden things
 my heart would feel to be a crime
 unless it trembled with the strings
-                            
+  
 fairyland
 dim vales--and shadowy floods--
 and cloudy-looking woods,
@@ -3102,7 +3102,7 @@ and so come down again
 never-contented thing
 have brought a specimen
 upon their quivering wings
-                            
+  
 the lake
 in spring of youth it was my lot
 to haunt of the wide world a spot
@@ -3127,7 +3127,7 @@ for him who thence could solace bring
 to his lone imagining--
 whose solitary soul could make
 an eden of that dim lake
-                            
+  
 evening star
 twas noontide of summer,
 and midtime of night,
@@ -3152,7 +3152,7 @@ thou bearest in heaven at night,
 and more i admire
 thy distant fire,
 than that colder, lowly light
-                            
+  
 imitation
 a dark unfathomed tide
 of interminable pride--
@@ -3174,52 +3174,52 @@ and my wordly rest hath gone
 with a sigh as it passed on
 i care not though it perish
 with a thought i then did cherish
-                            
+  
 the happiest day
-i       the happiest day--the happiest hour
+i  the happiest day--the happiest hour
 my seared and blighted heart hath known,
 the highest hope of pride and power,
 i feel hath flown
-ii      of power said i? yes such i ween
+ii of power said i? yes such i ween
 but they have vanished long, alas
 the visions of my youth have been--
 but let them pass
-iii     and pride, what have i now with thee?
+iii   and pride, what have i now with thee?
 another brow may evn inherit
 the venom thou hast poured on me--
 be still my spirit
-iv      the happiest day--the happiest hour
+iv the happiest day--the happiest hour
 mine eyes shall see--have ever seen
 the brightest glance of pride and power
 i feel have been
-v       but were that hope of pride and power
+v  but were that hope of pride and power
 now offered with the pain
 evn then i felt--that brightest hour
 i would not live again
-vi      for on its wing was dark alloy
+vi for on its wing was dark alloy
 and as it fluttered--fell
 an essence--powerful to destroy
 a soul that knew it well
-                            
+  
 translation from the greek
 hymn to aristogeiton and harmodius
-i      wreathed in myrtle, my sword ill conceal,
+i wreathed in myrtle, my sword ill conceal,
 like those champions devoted and brave,
 when they plunged in the tyrant their steel,
 and to athens deliverance gave
-ii     beloved heroes your deathless souls roam
+ii   beloved heroes your deathless souls roam
 in the joy breathing isles of the blest
 where the mighty of old have their home--
 where achilles and diomed rest
-iii    in fresh myrtle my blade ill entwine,
+iii  in fresh myrtle my blade ill entwine,
 like harmodius, the gallant and good,
 when he made at the tutelar shrine
 a libation of tyrannys blood
-iv     ye deliverers of athens from shame
+iv   ye deliverers of athens from shame
 ye avengers of libertys wrongs
 endless ages shall cherish your fame,
 embalmed in their echoing songs
-                            
+  
 dreams
 oh that my young life were a lasting dream
 my spirit not awakening, till the beam
@@ -3255,13 +3255,13 @@ of semblance with reality which brings
 to the delirious eye, more lovely things
 of paradise and love--and all my own--
 than young hope in his sunniest hour hath known
-                            
+  
 in youth i have known one
 how often we forget all time, when lone
 admiring natures universal throne
 her woods--her wilds--her mountains--the intense
 reply of hers to our intelligence
-i        in youth i have known one with whom the earth
+i   in youth i have known one with whom the earth
 in secret communing held--as he with it,
 in daylight, and in beauty, from his birth
 whose fervid, flickering torch of life was lit
@@ -3269,7 +3269,7 @@ from the sun and stars, whence he had drawn forth
 a passionate light such for his spirit was fit--
 and yet that spirit knew--not in the hour
 of its own fervor--what had oer it power
-ii       perhaps it may be that my mind is wrought
+ii  perhaps it may be that my mind is wrought
 to a ferver  by the moonbeam that hangs oer,
 but i will half believe that wild light fraught
 with more of sovereignty than ancient lore
@@ -3277,7 +3277,7 @@ hath ever told--or is it of a thought
 the unembodied essence, and no more
 that with a quickening spell doth oer us pass
 as dew of the night-time, oer the summer grass?
-iii      doth oer us pass, when, as th expanding eye
+iii doth oer us pass, when, as th expanding eye
 to the loved object--so the tear to the lid
 will start, which lately slept in apathy?
 and yet it need not be--that object hid
@@ -3285,7 +3285,7 @@ from us in life--but common--which doth lie
 each hour before us--but then only bid
 with a strange sound, as of a harp-string broken
 t awake us--tis a symbol and a token--
-iv       of what in other worlds shall be--and given
+iv  of what in other worlds shall be--and given
 in beauty by our god, to those alone
 who otherwise would fall from life and heaven
 drawn by their hearts passion, and that tone,
@@ -3293,53 +3293,53 @@ that high tone of the spirit which hath striven
 though not with faith--with godliness--whose throne
 with desperate energy t hath beaten down
 wearing its own deep feeling as a crown
-                            
+  
 a pan
-i        how shall the burial rite be read?
+i   how shall the burial rite be read?
 the solemn song be sung?
 the requiem for the loveliest dead,
 that ever died so young?
-ii       her friends are gazing on her,
+ii  her friends are gazing on her,
 and on her gaudy bier,
 and weep--oh to dishonor
 dead beauty with a tear
-iii     they loved her for her wealth--
+iii   they loved her for her wealth--
 and they hated her for her pride--
 but she grew in feeble health,
 and they love her--that she died
-iv      they tell me while they speak
+iv they tell me while they speak
 of her costly broiderd pall
 that my voice is growing weak--
 that i should not sing at all--
-v       or that my tone should be
+v  or that my tone should be
 tund to such solemn song
 so mournfully--so mournfully,
 that the dead may feel no wrong
-vi      but she is gone above,
+vi but she is gone above,
 with young hope at her side,
 and i am drunk with love
 of the dead, who is my bride--
-vii     of the dead--dead who lies
+vii   of the dead--dead who lies
 all perfumd there,
 with the death upon her eyes
 and the life upon her hair
-viii    thus on the coffin loud and long
+viii  thus on the coffin loud and long
 i strike--the murmur sent
 through the gray chambers to my song,
 shall be the accompaniment
-ix      thou diedst in thy lifes june--
+ix thou diedst in thy lifes june--
 but thou didst not die too fair
 thou didst not die too soon,
 nor with too calm an air
-x       from more than friends on earth,
+x  from more than friends on earth,
 thy life and love are riven,
 to join the untainted mirth
 of more than thrones in heaven--
-xi      therefore, to thee this night
+xi therefore, to thee this night
 i will no requiem raise,
 but waft thee on thy flight,
 with a pan of old days
-                            
+  
 mysterious star
 thou wert my dream
 all a long summer night--
@@ -3369,14 +3369,14 @@ thou thy truest type of grief
 is the gently falling leaf--
 thou thy framing is so holy
 sorrow is not melancholy
-                            
+  
  the earliest version of tamerlane was included in the suppressed
 volume of , but differs very considerably from the poem as now
 published the present draft, besides innumerable verbal alterations and
 improvements upon the original, is more carefully punctuated, and, the
 lines being indented, presents a more pleasing appearance, to the eye at
 least
-                            
+  
  to helen first appeared in the  volume, as did also the
 valley of unrest as the valley nis, israfel, and one or two
 others of the youthful pieces
@@ -3406,7 +3406,7 @@ i could not love except where death
 was mingling his with beautys breath--
 or hymen, time, and destiny,
 were stalking between her and me
-                            
+  
 but now my soul hath too much room--
 gone are the glory and the gloom--
 the black hath mellowd into gray,
@@ -3428,9 +3428,9 @@ why not an imp the greybeard hath,
 will shake his shadow in my path--
 and een the greybeard will oerlook
 connivingly my dreaming-book
-                            
+  
 doubtful poems
-                            
+  
 alone
 from childhoods hour i have not been
 as others were--i have not seen
@@ -3455,9 +3455,9 @@ and the cloud that took the form
 when the rest of heaven was blue
 of a demon in my view
 march , 
-                            
+  
 to isadore
-i       beneath the vine-clad eaves,
+i  beneath the vine-clad eaves,
 whose shadows fall before
 thy lowly cottage door--
 under the lilacs tremulous leaves--
@@ -3467,7 +3467,7 @@ last eve in dreams, i saw thee stand,
 like queenly nymph from fairy-land--
 enchantress of the flowery wand,
 most beauteous isadore
-ii      and when i bade the dream
+ii and when i bade the dream
 upon thy spirit flee,
 thy violet eyes to me
 upturned, did overflowing seem
@@ -3477,7 +3477,7 @@ thy classic brow, like lilies white
 and pale as the imperial night
 upon her throne, with stars bedight,
 enthralled my soul to thee
-iii     ah ever i behold
+iii   ah ever i behold
 thy dreamy, passionate eyes,
 blue as the languid skies
 hung with the sunsets fringe of gold
@@ -3487,7 +3487,7 @@ are startled from their long repose
 like shadows on the silent snows
 when suddenly the night-wind blows
 where quiet moonlight lies
-iv      like music heard in dreams,
+iv like music heard in dreams,
 like strains of harps unknown,
 of birds for ever flown,--
 audible as the voice of streams
@@ -3497,7 +3497,7 @@ and silence cometh with her spell
 like that which on my tongue doth dwell,
 when tremulous in dreams i tell
 my love to thee alone
-v       in every valley heard,
+v  in every valley heard,
 floating from tree to tree,
 less beautiful to me,
 the music of the radiant bird,
@@ -3507,7 +3507,7 @@ ah how for thy sweet voice i pine--
 for uttered in thy tones benign
 enchantress this rude name of mine
 doth seem a melody
-                            
+  
 the village street
 in these rapid, restless shadows,
 once i walked at eventide,
@@ -3581,7 +3581,7 @@ and each morning, midnight shadow,
 shadow of my sorrow seems
 strive, o heart, forget thine idol
 and, o soul, forget thy dreams
-                            
+  
 the forest reverie
 tis said that when
 the hands of men
@@ -3620,7 +3620,7 @@ quenching the fires its ashes hide,--
 its ashes, whence will spring and grow
 sweet flowers, ere long,--
 the rare and radiant flowers of song
-                            
+  
 la musique, says marmontel, in those contes moraux which in all
 our translations we have insisted upon calling moral tales, as if in
 mockery of their spirit--la musique est le seul des talens qui jouisse
@@ -3784,7 +3784,7 @@ departed, the fay, now the mere ghost of her former self, went
 disconsolately with her boat into the region of the ebony flood, and
 that she issued thence at all i cannot say, for darkness fell over all
 things, and i beheld her magical figure no more
-                            
+  
 the power of words
 oinos
 pardon, agathos, the weakness of a spirit new-fledged with
@@ -3949,7 +3949,7 @@ beloved--i spoke it--with a few passionate sentences--into birth its
 brilliant flowers are the dearest of all unfulfilled dreams, and its
 raging volcanoes are the passions of the most turbulent and
 unhallowed of hearts
-                            
+  
 the colloquy of monos and una
 greek mellonta  sauta
 these things are in the future
@@ -4262,7 +4262,7 @@ form--for that which had no thought--for that which had no
 sentience--for that which was soundless, yet of which matter formed no
 portion--for all this nothingness, yet for all this immortality, the
 grave was still a home, and the corrosive hours, co-mates
-                            
+  
 the conversation of eiros and charmion
 i will bring fire to thee
 euripides--androm
@@ -4464,7 +4464,7 @@ mass of ether in which we existed, burst at once into a species of
 intense flame, for whose surpassing brilliancy and all-fervid heat
 even the angels in the high heaven of pure knowledge have no name
 thus ended all
-                            
+  
 shadow--a parable
 yea though i walk through the valley of the shadow
 psalm of david
@@ -4548,7 +4548,7 @@ in the voice of the shadow were not the tones of any one being, but of a
 multitude of beings, and varying in their cadences from syllable to
 syllable, fell duskily upon our ears in the well remembered and familiar
 accents of many thousand departed friends
-                            
+  
 silence--a fable
 the mountain pinnacles slumber valleys, crags, and caves are silent
 listen to me, said the demon, as he placed his hand upon my head
@@ -4660,9 +4660,9 @@ back within the cavity of the tomb and laughed and i could not laugh
 with the demon, and he cursed me because i could not laugh and the lynx
 which dwelleth forever in the tomb, came out therefrom, and lay down at
 the feet of the demon, and looked at him steadily in the face
-                            
+  
 essays
-                            
+  
 the poetic principle
 in speaking of the poetic principle, i have no design to be either
 thorough or profound while discussing very much at random the
@@ -6391,7 +6391,7 @@ the hills untied their bonnets,
 the bobolinks begun
 then i said softly to myself,
 that must have been the sun
-    
+  
 but how he set, i know not
 there seemed a purple stile
 which little yellow boys and girls
