@@ -37,7 +37,7 @@ function updateCounter(result) {
     total++;
     var percent = ~~(100 * correct/total);
 
-    $("#score").text(percent + "%");
+    $("#score").text(percent + "%" + " (" + correct + "/" + total + ")");
 	
 }
 
