@@ -39,13 +39,19 @@ for arg in sys.argv[1:]:
 	romans = []
 	for i in range(1, 101):
 		romans.append(write_roman(i))
+
 	#get list of chars to keep
 	good = list("qwertyuiopasdfghjklzxcvbnm -?,")
 	for line in f:
-		s = line.strip(' \t\n\r').replace("\t", "")
+		line = line.lower()
+		s = line.strip().replace("\t", "").replace("\n", "")
+		s = [x.lower() for x in s if x in good]
+		s = "".join(s)
+
+		if "//".join(romans).find(s) != -1 and len(s) != 0:
+			continue
+
 		if len(s) != 0:
-			s = line.lower()
-			if s not in romans:
-				s = [x for x in s if x in good]
-				print(("".join(s)).strip(' \t\n\r'))
+			print(s)
+
 	f.close()

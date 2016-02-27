@@ -1,45 +1,52 @@
 <html>
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
-  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css" type="css">
-  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-  <script src="ajaxCrap.js"></script>
-</head>
-<body>
-<script>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="css">
+      <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+      <script src="ajaxCrap.js"></script>
+  </head>
+  <body>
+    <script>
 
-</script>
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <center>
-          <h1>POETRY TURING TEST </h1>
-          <h2>Can you guess which code sample was written by a person?</h2>
-        </center>
+    </script>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <center>
+            <h1>POETRY TURING TEST </h1>
+            <h2>Can you guess which code sample was written by a person?</h2>
+          </center>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="six columns">
-        <center>
-          <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
-        </center>
+      <div class="row">
+        <div class="six columns">
+          <div class="row">
+            <center>
+              <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+            </center>
+          </div>
+
+          <div class="row">
+            <div class="poem twelve columns wordwrap" id="choice1" style="background-color: {{poem1sentiment}}">{{{poem1}}}</div>
+          </div>
+        </div>
+
+
+
+        <div class="six columns">
+          <div class="row">
+            <center>
+              <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+            </center>
+          </div>
+          <div class="row">
+            <div class="poem twelve columns wordwrap" id="choice2" style="background-color: {{poem2sentiment}}">{{{poem2}}}</div>
+          </div>
+          </center>
+        </div>
       </div>
-      <div class="six columns">
-        <center>
-          <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
-        </center>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="six columns wordwrap" id="choice1" style="background-color: {{poem1sentiment}}">
-        {{{poem1}}}</div>
-      <div class="six columns wordwrap" id="choice2">
-        {{{poem2}}}</div>
-    </div>
-  </div>
-
-</body>
+  </body>
 </html>
