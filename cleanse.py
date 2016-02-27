@@ -43,6 +43,7 @@ for arg in sys.argv[1:]:
 	#get list of chars to keep
 	good = list("qwertyuiopasdfghjklzxcvbnm -?,")
 	for line in f:
+		line = line.lower()
 		s = line.strip().replace("\t", "").replace("\n", "")
 		s = [x.lower() for x in s if x in good]
 		s = "".join(s)
