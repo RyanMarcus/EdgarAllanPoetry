@@ -14,6 +14,8 @@ The poetry is generated randomly in three ways:
 2.  Poems generated using a Markov Chain on the same corpus
 3.  Poems generated using a Long Short Term Memory Recurrent Neural Network (lstm rnn) with TensorFlow and Keras on the corpus.
 
+The website was built on NodeJs and the color scheme changes depending on the mood of the poems using Indico.
+
 
 ## What's next for EdgarAllanPoetry
 
