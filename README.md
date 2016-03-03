@@ -17,8 +17,9 @@ The poetry is generated randomly in three ways:
 The website was built on NodeJs and the color scheme changes depending on the mood of the poems using Indico.
 
 ## Demo:
-[Edgar Allan Poetry](https://rmarcus.info/eap/)
-[stats](https://rmarcus.info/eap/charts)
+
+- [Edgar Allan Poetry](https://rmarcus.info/eap/)
+- [stats](https://rmarcus.info/eap/charts)
 
 ## What's next for EdgarAllanPoetry
 
