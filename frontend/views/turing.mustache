@@ -4,22 +4,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/eap/style.css" type="css">
-      <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-      <script src="/eap/ajaxCrap.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="/eap/ajaxCrap.js"></script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53336646-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
   <body>
 
     <!-- <div class="band navigation">
-    <nav class="container primary">
-        <div class="sixteen columns">
-          <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-    </nav>
+	 <nav class="container primary">
+           <div class="sixteen columns">
+             <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Contact Us</a></li>
+             </ul>
+           </div>
+	 </nav>
     </div> -->
 
     <div class="container">
@@ -35,17 +47,17 @@
 
       <div class="row">
         <div class="six columns">
-            <center>
-              <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
-              <div class="poem wordwrap" id="choice1" style="background-color: {{poem1sentiment}}; color: {{poem1textcolor}}">{{{poem1}}}</div>
-            </center>
+          <center>
+            <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+            <div class="poem wordwrap" id="choice1" style="background-color: {{poem1sentiment}}; color: {{poem1textcolor}}">{{{poem1}}}</div>
+          </center>
         </div>
 
         <div class="six columns">
-            <center>
-              <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
-              <div class="poem wordwrap" id="choice2" style="background-color: {{poem2sentiment}}; color: {{poem2textcolor}}">{{{poem2}}}</div>
-            </center>
+          <center>
+            <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+            <div class="poem wordwrap" id="choice2" style="background-color: {{poem2sentiment}}; color: {{poem2textcolor}}">{{{poem2}}}</div>
+          </center>
         </div>
       </div>
     </div>
