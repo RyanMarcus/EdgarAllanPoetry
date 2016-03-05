@@ -25,3 +25,6 @@ The website was built on NodeJs and the color scheme changes depending on the mo
 
 - Write a novel?
 - Discover the lost sonnets of Shakespeare?
+
+## HampHack 2016 AI Winner!
+![HampHack](http://i.imgur.com/vLieCcb.png)
