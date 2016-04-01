@@ -27,4 +27,4 @@ The website was built on NodeJs and the color scheme changes depending on the mo
 - Discover the lost sonnets of Shakespeare?
 
 ## HampHack 2016 AI Winner!
-![HampHack](http://i.imgur.com/vLieCcb.png)
+[![HampHack](http://i.imgur.com/vLieCcb.png)](https://docs.google.com/spreadsheets/d/145aDRKhmVcEKU1mvlsxvyxCf9OcwJWbuOx9GlLpghxU/edit#gid=0)
