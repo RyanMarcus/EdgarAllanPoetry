@@ -1,9 +1,10 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="css">
+    <link rel="stylesheet" href="/eap/skeleton.css" type="css">
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/eap/style.css" type="css">
+    <link rel="stylesheet" href="/eap/style.css" type="text/css" />
+
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="/eap/ajaxCrap.js"></script>
 
@@ -18,6 +19,7 @@
       ga('send', 'pageview');
 
     </script>
+
   </head>
   <body>
 
@@ -38,25 +40,21 @@
       <div class="row">
         <div class="twelve columns">
           <center>
-            <h1>POETRY TURING TEST </h1>
-            <h2>Can you guess which poetry sample was written by a person?</h2>
+            <h1>EDGAR ALLAN POETRY </h1>
+            <h2>Can you guess if the poetry sample was written by a person?</h2>
             <h2 id="score"></h2>
           </center>
         </div>
       </div>
 
       <div class="row">
-        <div class="six columns">
+        <div class="twelve columns">
           <center>
-            <button id="poem1Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
+            <button id="humanButton" trial_id="{{ trial_id }}" class="poemButton">Human</button>
+            <button id="computerButton" trial_id="{{ trial_id }}" class="poemButton">Computer</button>
+            
             <div class="poem wordwrap" id="choice1" style="background-color: {{poem1sentiment}}; color: {{poem1textcolor}}">{{{poem1}}}</div>
-          </center>
-        </div>
-
-        <div class="six columns">
-          <center>
-            <button id="poem2Button" trial_id="{{ trial_id }}" class="poemButton">This one?</button>
-            <div class="poem wordwrap" id="choice2" style="background-color: {{poem2sentiment}}; color: {{poem2textcolor}}">{{{poem2}}}</div>
+          
           </center>
         </div>
       </div>

@@ -46,6 +46,7 @@ h2 {
   color: white;
   background-color: #1BBC9B;
   border-color: #1BBC9B;
+  font-size: large;
 }
 
 .button:focus, .button:hover, button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=submit]:focus, input[type=submit]:hover {

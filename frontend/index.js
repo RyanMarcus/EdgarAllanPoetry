@@ -13,10 +13,6 @@ app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 
 
-const indico = require('indico.io');
-
-indico.apiKey = "b88a14d4a97b56a6ed8f65efee05f9c4";
-
 var testing = true;
 
 var last_trial_id = 0;
@@ -65,31 +61,27 @@ function generateTrial() {
 
     // pick if we are using RNN or Markov
     var type = (flip() == 0 ? "rnn" : "markov");
-    var fake_id = flip();
+    var fake_id = (flip() == 0 ? false : true);
     var trial_id = last_trial_id++;
 
+    
     trials[trial_id] = {
     	"fake_poem": fake_id,
     	"type": type,
     	"answer": false
     };
 
-    var poems = [
-    	getPoem(fake_id == 0 ? type : "real"),
-    	getPoem(fake_id == 1 ? type : "real")
-    ];
 
-    return Q.all(poems).then(function (poems) {
-    	return Q.all([indico.sentiment(poems[0]),
-    		            indico.sentiment(poems[1])])
+    var poem = getPoem(fake_id ? type : "real");
+
+    return poem.then(function (poem) {
+    	return Q.all([0.35, 0.35])
     	.then(function (sent) {
     		return {
-      		    "poems": poems,
+      		    "poem": poem,
       		    "trial_id": trial_id,
-		          "poem1sentiment": sentToColor(sent[0]),
-		          "poem2sentiment": sentToColor(sent[1]),
-              "poem1textcolor": textColor(sent[0]),
-              "poem2textcolor": textColor(sent[1])
+		    "poem1sentiment": sentToColor(sent[0]),
+                    "poem1textcolor": textColor(sent[0])
     		};
 	    });
     });
@@ -177,13 +169,10 @@ app.get('/eap/chartInfo', function(req, res){
 app.get('/eap/', function (req, res) {
     generateTrial().then(function (trial) {
 	     res.render('turing',
-    		   { "poem1": trial.poems[0],
-    		     "poem2": trial.poems[1],
-    		     "trial_id": trial.trial_id,
-		         "poem1sentiment": trial.poem1sentiment,
-		         "poem2sentiment": trial.poem2sentiment,
-             "poem1textcolor": trial.poem1textcolor,
-             "poem2textcolor": trial.poem2textcolor
+    		        { "poem1": trial.poem,
+    		          "trial_id": trial.trial_id,
+		          "poem1sentiment": trial.poem1sentiment,
+                          "poem1textcolor": trial.poem1textcolor,
     		   });
     });
 });
@@ -193,20 +182,18 @@ app.post('/eap/ajaxSendData', function(req, res) {
 	res.send({"result": false});
 	return;
     }
-    trials[req.body.trial_id].answer = req.body.answer;
+    trials[req.body.trial_id].answer = (req.body.answer === "true" ? true : false);
 
+    
     res.send({"result": trials[req.body.trial_id].answer != trials[req.body.trial_id].fake_poem});
 });
 
 app.get('/eap/ajaxGetData', function(req, res){
     generateTrial().then(function (trial) {
-    	res.send({ "poem1": trial.poems[0],
-		   "poem2": trial.poems[1],
+    	res.send({ "poem1": trial.poem,
 		   "trial_id": trial.trial_id,
 		   "poem1color": trial.poem1sentiment,
-		   "poem2color": trial.poem2sentiment,
-       "poem1textcolor": trial.poem1textcolor,
-       "poem2textcolor": trial.poem2textcolor
+                   "poem1textcolor": trial.poem1textcolor
 		 });
     });
 });
