@@ -19,7 +19,7 @@ body {
 
 h1 {
   color: #1BBC9B;
-  font-family: 'Source Code Pro';
+  font-family: 'Source Code Pro', 'Menlo', 'Consolas', monospace;
   font-size: 6em;
   margin-bottom: 15px;
 }
